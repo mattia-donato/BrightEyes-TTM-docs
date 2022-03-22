@@ -43,9 +43,9 @@ The BrightEyes-TTM is composed by three main parts: the FPGA evaluation board (\
 Assembly Instructions
 ---------------------
 
-   The Xilinx® KC705 Evaluation board, the Cypress® FX3™ SuperSpeed Explorer Kit and the connector card can be easily stacked together, using FMC connectors, as shown below (Fig. 3). I/Os connections are also labeled for a more intuitive assembly and mapped in the [I/O pins table](boards/IOconnectorBoard/README.md) which shows the correspondence between inputs (typically the digital output from the SPAD array detector elements, named photon chaneels) and the connection pins. For a correct use of the BrightEyes-TTM the [dip switches](https://en.wikipedia.org/wiki/DIP_switch) in the orgage BOX (always Fig.3) should be all set to the OFF position.
+The Xilinx® KC705 Evaluation board, the Cypress® FX3™ SuperSpeed Explorer Kit and the connector card can be easily stacked together, using FMC connectors, as shown below (Fig. 3). I/Os connections are also labeled for a more intuitive assembly and mapped in the [I/O pins table](boards/IOconnectorBoard/README.md) which shows the correspondence between inputs (typically the digital output from the SPAD array detector elements, named photon chaneels) and the connection pins. For a correct use of the BrightEyes-TTM the [dip switches](https://en.wikipedia.org/wiki/DIP_switch) in the orgage BOX (always Fig.3) should be all set to the OFF position.
 
-   The Cypress® FX3™ SuperSpeed Explorer Kit board interlock into the FMC-LPC connector block. While the I/Os connector cards is connected to the FMC-HPC connector. 
+The Cypress® FX3™ SuperSpeed Explorer Kit board interlock into the FMC-LPC connector block. While the I/Os connector cards is connected to the FMC-HPC connector. 
 
 .. figure:: img/TTM_Assembly.PNG
  :alt: Assembly
@@ -55,7 +55,7 @@ Assembly Instructions
  Fig.3 - BrightEyes-TTM detailed assembly.
 
 
-   In the current application CH11 on J5 input connector board is internally duplicated and sampled with a 400MHz clock and returned as output on pin J17. This feature allow to monitor CH11 activity and content while it is still connected and used into the TTM design (Fig.4).
+In the current application CH11 on J5 input connector board is internally duplicated and sampled with a 400MHz clock and returned as output on pin J17. This feature allow to monitor CH11 activity and content while it is still connected and used into the TTM design (Fig.4).
 
 .. figure:: img/TTM_ch11_duplication.PNG
  :alt: Assembly
@@ -226,6 +226,7 @@ In order to give the user some preliminary tools to process, reconstruct and use
      - `TCSPC_Histogram_reconstruction.pdf <dataProcessing/pynotebook/PDF/TCSPC_Histogram_reconstruction.pdf>`_
      - `TCSPC_Histogram_reconstruction.ipynb <dataProcessing/pynotebook/TCSPC_Histogram_reconstruction.ipynb>`_
      - **Fluorescence_Spectroscopy_Dataset_40MHz** 
+     
      .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg
         :target: https://doi.org/10.5281/zenodo.4912656
         :alt: DOI
@@ -235,6 +236,7 @@ In order to give the user some preliminary tools to process, reconstruct and use
      - `Image_reconstruction.pdf <dataProcessing/pynotebook/PDF/Image_reconstruction.pdf>`_
      - `Image_reconstruction.ipynb <dataProcessing/pynotebook/Image_reconstruction.ipynb>`_
      - **FLIM_512x512pixels_dwelltime250us_Dataset_40MHz** 
+     
      .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg
         :target: https://doi.org/10.5281/zenodo.4912656
         :alt: DOI
@@ -244,6 +246,7 @@ In order to give the user some preliminary tools to process, reconstruct and use
      - `FCS.pdf <dataProcessing/pynotebook/PDF/FCS.pdf>`_
      - `FCS.ipynb <dataProcessing/pynotebook/FCS.ipynb>`_
      - **FCS_scanfcs_Dataset_40MHz** 
+     
      .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg
         :target: https://doi.org/10.5281/zenodo.4912656
         :alt: DOI
@@ -253,6 +256,7 @@ In order to give the user some preliminary tools to process, reconstruct and use
      - `ISM&Phasors.pdf <dataProcessing/pynotebook/PDF/ISM_Decay_Reconstruction_BrightEyes-TTM_v1_opensource.pdf>`_
      - `ISM&Phasors.ipynb <dataProcessing/pynotebook/ISM_Decay_Reconstruction_BrightEyes-TTM_v1_opensource.ipynb>`_
      - Output 4D (x,y,t,ch) file from  `Image_reconstruction.ipynb <dataProcessing/pynotebook/Image_reconstruction.ipynb>`_ notebook after having processed **FLIM_512x512pixels_dwelltime250us_Dataset_40MHz** 
+     
      .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg
         :target: https://doi.org/10.5281/zenodo.4912656
         :alt: DOI
@@ -264,13 +268,13 @@ References
 
 [1] A. Rossetta, E. Slenders, M. Donato, E. Perego, F. Diotalevi, L. Lanzano', S. V. Koho, G. Tortarolo, M. Crepaldi, G. Vicidomini bioRxiv 2021.10.11.463950; doi: https://doi.org/10.1101/2021.10.11.463950
 
-[2] M. Castello, G. Tortarolo, M. Buttafava, T. Deguchi, F. Villa, S. Koho, L. Pesce, M. Oneto, S. Pelicci, L. Lanzanó, P. Bianchini, C. J. R. Sheppard, A. Diaspro, A. Tosi, and G. Vicidomini, A robust and versatile platform for image scanning microscopy enabling super-resolution FLIM, :raw-html-m2r:`<em> Nat. Methods</em>`\ , 16: 175–178 (2019), `https://doi.org/10.1038/s41592-018-0291-9 <https://doi.org/10.1038/s41592-018-0291-9>`_  
+[2] M. Castello, G. Tortarolo, M. Buttafava, T. Deguchi, F. Villa, S. Koho, L. Pesce, M. Oneto, S. Pelicci, L. Lanzanó, P. Bianchini, C. J. R. Sheppard, A. Diaspro, A. Tosi, and G. Vicidomini, A robust and versatile platform for image scanning microscopy enabling super-resolution FLIM, *Nat. Methods* , 16: 175–178 (2019), `https://doi.org/10.1038/s41592-018-0291-9 <https://doi.org/10.1038/s41592-018-0291-9>`_  
 
-[3] E. Slenders, M. Castello, M. Buttafava, F. Villa, A. Tosi, L. Lanzano, S. V. Koho, and G. Vicidomini, Confocal-based fluorescence fluctuation spectroscopy with a SPAD array detector, :raw-html-m2r:`<em> Light Sci. Appl.</em>`\ , 10: 31 (2021), `https://doi.org/10.1038/s41377-021-00475-z <https://doi.org/10.1038/s41377-021-00475-z>`_  
+[3] E. Slenders, M. Castello, M. Buttafava, F. Villa, A. Tosi, L. Lanzano, S. V. Koho, and G. Vicidomini, Confocal-based fluorescence fluctuation spectroscopy with a SPAD array detector, *Light Sci. Appl.* , 10: 31 (2021), `https://doi.org/10.1038/s41377-021-00475-z <https://doi.org/10.1038/s41377-021-00475-z>`_  
 
-[4] M. Buttafava, F. Villa, M. Castello, G. Tortarolo, E. Conca, M. Sanzaro, S. Piazza, P. Bianchini, A. Diaspro, F. Zappa, G. Vicidomini, and A. Tosi, SPAD-based asynchronous-readout array detectors for image-scanning microscopy, :raw-html-m2r:`<em> Optica</em>`\ , 7: 755-765 (2020), `https://doi.org/10.1364/OPTICA.391726 <https://doi.org/10.1364/OPTICA.391726>`_  
+[4] M. Buttafava, F. Villa, M. Castello, G. Tortarolo, E. Conca, M. Sanzaro, S. Piazza, P. Bianchini, A. Diaspro, F. Zappa, G. Vicidomini, and A. Tosi, SPAD-based asynchronous-readout array detectors for image-scanning microscopy, *Optica* , 7: 755-765 (2020), `https://doi.org/10.1364/OPTICA.391726 <https://doi.org/10.1364/OPTICA.391726>`_  
 
-[5] S. V. Koho, E. Slenders, G. Tortarolo, M. Castello, M. Buttafava, F. Villa, E. Tcarenkova, M. Ameloot, P. Bianchini, C. J. R. Sheppard, A. Diaspro, A. Tosi, and G. Vicidomini, Two-photon image-scanning microscopy with SPAD array and blind image reconstruction, :raw-html-m2r:`<em> Biomed. Opt. Express</em>`\ ,  11(6): 2905-2924 (2020), `https://doi.org/10.1364/BOE.374398 <https://doi.org/10.1364/BOE.374398>`_  
+[5] S. V. Koho, E. Slenders, G. Tortarolo, M. Castello, M. Buttafava, F. Villa, E. Tcarenkova, M. Ameloot, P. Bianchini, C. J. R. Sheppard, A. Diaspro, A. Tosi, and G. Vicidomini, Two-photon image-scanning microscopy with SPAD array and blind image reconstruction, *Biomed. Opt. Express* ,  11(6): 2905-2924 (2020), `https://doi.org/10.1364/BOE.374398 <https://doi.org/10.1364/BOE.374398>`_  
 
 Team behind the BrightEyes-TTM
 ==============================
@@ -308,6 +312,7 @@ License
 =======
 
 The Time-Tagging Module (TTM) is an aggregation of different parts with different licenses. See details in `LICENSE.md <LICENSE.md>`_ file.  Unless otherwise stated, they are licensed under a CC-BY-NC 4.0, Creative Commons Attribution-NonCommercial 4.0 International License. 
+
 .. image:: https://licensebuttons.net/l/by-nc/4.0/88x31.png
    :target: https://creativecommons.org/licenses/by-nc/4.0/
    :alt: License: CC BY-NC 4.0
