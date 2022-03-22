@@ -17,6 +17,8 @@ Contents
 --------
 
 .. toctree::
+   BrightEyes
+
    USB3
    USB3Mainboard
    spadffs
@@ -28,6 +30,6 @@ Contents
    dataRecevier_linux
    dataReceiver_windows
    dataprocessing
-   BrightEyes
+   
    usage
    api
