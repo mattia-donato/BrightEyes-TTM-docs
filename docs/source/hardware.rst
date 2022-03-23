@@ -9,7 +9,7 @@ Xilinx® KC705 Evaluation Board
 - Kintex-7 evaluation board for the BrightEyes-TTM
 - *Brand:* Xilinx®
 - *Product code:* EK-K7-KC705-G
-- *Producer link:* https://www.xilinx.com/products/boards-and-kits/ek-k7-kc705-g.html
+- *Link to the product:* https://www.xilinx.com/products/boards-and-kits/ek-k7-kc705-g.html
 - **How-To / Firmware**: read here `<FPGABoard>`
 
 
@@ -18,7 +18,7 @@ EZ-USB® FX3™ SuperSpeed Explorer Kit
 - USB board for data transmission from the FPGA to a host-PC
 - *Brand:* Cypress®
 - *Product code:* CYUSB3KIT-003 EZ-USB
-- *Producer link:* https://www.cypress.com/documentation/development-kitsboards/cyusb3kit-003-ez-usb-fx3-superspeed-explorer-kit
+- *Link to the product:* https://www.cypress.com/documentation/development-kitsboards/cyusb3kit-003-ez-usb-fx3-superspeed-explorer-kit
 - **How-To / Firmware**: read here <boards/USB3.0>
 
 FMC Interconnect Board for the EZ-USB® FX3™
@@ -26,17 +26,17 @@ FMC Interconnect Board for the EZ-USB® FX3™
 - FMC adapter connector card to interconnect a Xilinx® FPGA board with the EZ-USB® FX3™ SuperSpeed Explorer Kit
 - *Brand:* Cypress®
 - *Product code:* CYUSB3ACC-005
-- *Producer link:* https://www.cypress.com/documentation/development-kitsboards/cyusb3acc-005-fmc-interconnect-board-ez-usb-fx3-superspeed
+- *Link to the product:* https://www.cypress.com/documentation/development-kitsboards/cyusb3acc-005-fmc-interconnect-board-ez-usb-fx3-superspeed
 - **How-To / Firmware**: read here <boards/USB3.0/FMCadapter>
 
 
 I/Os SMA-FMC daugther connector card
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-- FMC daugther card to interface the BrightEyes-TTM with external photon-signals </boards/IOconnectorBoard>
+- FMC daugther card to interface the BrightEyes-TTM with external photon-signals 
 - *Brand:* *custom-built*
 - *Product code:* *custom-built*
-- *Producer link:* contact us / contact a PCB producer
-- **How-To / Firmware**: Gerber_SMA_FMC.zip <boards/IOconnectorBoard/Gerber_SMA_FMC.zip>
+- **Description:** </boards/IOconnectorBoard>
+- **Gerber File:** Gerber_SMA_FMC.zip <boards/IOconnectorBoard/Gerber_SMA_FMC.zip>
 
 
 Optional hardware parts
@@ -56,8 +56,8 @@ NIM to TTL converter
 - I/O multichannel (8x) digital buffer to match the impedance of external reference signals with the input impedance of the Xilinx® KC705 Evaluation kit
 - *Brand:* *custom-built*
 - *Product code:* *custom-built*
-- *Producer link:* contact us / contact a PCB producer
-- **How-To / Firmware**: ` <boards/8xDigiBuffer>`_ `8xDigiBuffer_Gerber.zip <boards/8xDigiBuffer/files/DigiBuff8_rev2_GerberFiles.zip>`_
+- **Description:** <boards/8xDigiBuffer>
+- **Gerber File:** `8xDigiBuffer_Gerber.zip <boards/8xDigiBuffer/files/DigiBuff8_rev2_GerberFiles.zip>`_
    
 
 
