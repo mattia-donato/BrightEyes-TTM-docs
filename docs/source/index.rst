@@ -19,8 +19,9 @@ Contents
 .. toctree::
    BrightEyes
    
-   assembly
    specifications
+   assembly
+   
    hardware
    software
    credits
