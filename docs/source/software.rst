@@ -3,27 +3,33 @@ Operational software list
 
 Softwares tools for the BrightEyes-TTM FPGA programming and data acquisition.
 
-.. list-table::
-   :header-rows: 1
+Python 3
+--------
+Python environment to run the analysis softwares
+https://www.python.org/download/releases/3.0/
 
-   * - Name
-     - Description
-     - Where to get
-   * - Vivado Design Suite®
-     - Xilinx® FPGA Programming software environment
-     - https://www.xilinx.com/products/design-tools/vivado.html
-   * - Python 3
-     - Python environment to run the analysis softwares
-     - https://www.python.org/download/releases/3.0/
-   * - BrightEyes-TTM custom Python 3 libraries
-     - In order to be able to reconstruct and process the data streamed by the BrightEyes-TTM few python libraries have to be previously installed in the host-processing computer
-     - `dataProcessing <dataProcessing>`_
-   * - Data acquisition software (Linux)
-     - The data receiver is a CLI program for reading the data from the TTM through the USB 3.0 and write them to the PC memory. It is program written in C/C++ developed for Linux OS.
-     - `dataReceiver (Linux) <dataReceiver/linux>`_
-   * - Data acquisition software (Windows)
-     - Here a version of the data receiver ported to Windows OS. Please note that the Linux version is our reference version for measurments and tests.
-     - `dataReceiverW (Windows) <dataReceiver/windows>`_
+Xilinx® Vivado Design Suite®:
+---------------------
+Xilinx® FPGA Programming software environment
+https://www.xilinx.com/products/design-tools/vivado.html
+
+
+
+BrightEyes-TTM custom Python 3 libraries
+----------------------------------------
+In order to be able to reconstruct and process the data streamed by the BrightEyes-TTM few python libraries have to be previously installed in the host-processing computer
+`dataProcessing <dataProcessing>`_
+
+Data acquisition software
+-------------------------
+
+* Data acquisition software (Linux)
+  The data receiver is a CLI program for reading the data from the TTM through the USB 3.0 and write them to the PC memory. It is program written in C/C++ developed for Linux OS.
+  `dataReceiver (Linux) <dataReceiver/linux>`_
+
+* Data acquisition software (Windows)
+  Here a version of the data receiver ported to Windows OS. Please note that the Linux version is our reference version for measurments and tests.
+  `dataReceiverW (Windows) <dataReceiver/windows>`_
 
 
 Analysis software list
