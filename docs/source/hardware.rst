@@ -15,7 +15,7 @@ In the table below you can find the complete list of all the needed hardware com
    * - Xilinx® KC705 Evaluation Board
      - EK-K7-KC705-G
      - Xilinx®
-     - `Kintex-7 evaluation board for the BrightEyes-TTM <boards/FPGAboard>`_
+     - :ref:`Kintex-7 evaluation board for the BrightEyes-TTM <FPGABoard>`
      - https://www.xilinx.com/products/boards-and-kits/ek-k7-kc705-g.html
    * - EZ-USB® FX3™ SuperSpeed Explorer Kit
      - CYUSB3KIT-003 EZ-USB
