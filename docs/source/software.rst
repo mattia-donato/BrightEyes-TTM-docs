@@ -30,8 +30,8 @@ dataReceiver
   `dataReceiverW (Windows) <dataReceiver/windows>`_
 
 
-Data analysis
-=============
+Examples Data Analysis Notebook
+===============================
 
 
 In order to give the user some preliminary tools to process, reconstruct and use the acquired TTM data we developed 3 main examples using Jupyter Notebook and we provide the associated examples dataset on `Zenodo <https://doi.org/10.5281/zenodo.4912656>`_. Explore the `data processing and analysis section <dataProcessing>`_ for further info.
