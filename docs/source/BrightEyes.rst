@@ -67,7 +67,6 @@ In the current application CH11 on J5 input connector board is internally duplic
 
 BrightEyes-TTM specifications
 -----------------------------
------------------------------
 
 
 .. list-table::
@@ -75,11 +74,12 @@ BrightEyes-TTM specifications
 
    * - 
      - 
-   * - Single shot precision*
+   * - Single shot precision \*
+
      - 30 ps
    * - Time bin width
      - user defined (default 43 ps)
-   * - Time range**
+   * - Time range \**
      - not limited by hardware
    * - Maximum laser sync rate
      - 80 MHz
@@ -89,9 +89,9 @@ BrightEyes-TTM specifications
      - ~ 6 % RMS
 
 
-**Gaussan fitting sigma value**
+\* Gaussan fitting sigma value
 
-Tested at 200 ns (5 MHz), 100 ns (10 MHz), 50 ns (20 MHz), 25 ns (40 MHz), 12.5 ns (80 MHz) 
+\** Tested at 200 ns (5 MHz), 100 ns (10 MHz), 50 ns (20 MHz), 25 ns (40 MHz), 12.5 ns (80 MHz) 
 
 **BrightEyes-TTM current implementation specifications**
 
