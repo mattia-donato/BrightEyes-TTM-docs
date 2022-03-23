@@ -1,5 +1,5 @@
-**BrightEyes-TTM: Open-access time tagging module**
-=======================================================
+Introduction
+============
 
 The BrightEyes-TTM project `[1] <https://doi.org/10.1101/2021.10.11.463950>`_ born as an offshoot of the BrighEyes project founded by the ERC in 2018 (\ `Consolidator Grant, N. 818699 <https://vicidominilab.github.io/brighteyes/>`_\ ). The principal aim of the BrightEyes-TTM project is to give to any microscopy laboratory the possibility to implement and further develop single-photon microscopy. The second aim is to trigger the interest of the microscopy community, and establish the BrigthEyes-TTM as a new standard for single-photon laser scanning microscopy (LSM) experiments. 
 
@@ -39,3 +39,12 @@ The BrightEyes-TTM is composed by three main parts: the FPGA evaluation board (\
  :align: center
 
  Fig. 2 - BrightEyes-TTM assembly.
+
+
+
+.. toctree::
+    :caption: Introduction
+
+    Introduction <index>
+
+.. _tutorials_doc:
