@@ -39,12 +39,3 @@ The BrightEyes-TTM is composed by three main parts: the FPGA evaluation board (\
  :align: center
 
  Fig. 2 - BrightEyes-TTM assembly.
-
-
-
-.. toctree::
-    :caption: Introduction
-
-    Introduction <index>
-
-.. _tutorials_doc:
