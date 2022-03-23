@@ -11,8 +11,8 @@ References
 
 [5] S. V. Koho, E. Slenders, G. Tortarolo, M. Castello, M. Buttafava, F. Villa, E. Tcarenkova, M. Ameloot, P. Bianchini, C. J. R. Sheppard, A. Diaspro, A. Tosi, and G. Vicidomini, Two-photon image-scanning microscopy with SPAD array and blind image reconstruction, *Biomed. Opt. Express* ,  11(6): 2905-2924 (2020), `https://doi.org/10.1364/BOE.374398 <https://doi.org/10.1364/BOE.374398>`_  
 
-Team behind the BrightEyes-TTM
-==============================
+Authors
+=====================================
 
 Molecular Microscopy & Spectroscopy, Istituto Italiano di Tecnologia
 
