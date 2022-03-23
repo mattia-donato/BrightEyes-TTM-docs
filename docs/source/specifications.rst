@@ -1,5 +1,5 @@
-BrightEyes-TTM specifications
------------------------------
+Specifications
+--------------
 
 
 .. list-table::
@@ -26,7 +26,7 @@ BrightEyes-TTM specifications
 
 \** Tested at 200 ns (5 MHz), 100 ns (10 MHz), 50 ns (20 MHz), 25 ns (40 MHz), 12.5 ns (80 MHz) 
 
-**BrightEyes-TTM current implementation specifications**
+**BrightEyes-TTM implementation v.1**
 
 .. list-table::
    :header-rows: 1
