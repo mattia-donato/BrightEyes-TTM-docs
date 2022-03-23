@@ -19,13 +19,6 @@ Contents
 .. toctree::
    BrightEyes
    
-   specifications
-   assembly
-   
-   hardware
-   software
-   credits
-   
    USB3
    USB3Mainboard
    spadffs
