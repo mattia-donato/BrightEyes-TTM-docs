@@ -18,18 +18,3 @@ Contents
 
 .. toctree::
    BrightEyes
-   
-   USB3
-   USB3Mainboard
-   spadffs
-   libttp
-   IOConnectorBoard
-   FPGABoard
-   FMCAdapter
-   DigiBuffer
-   dataRecevier_linux
-   dataReceiver_windows
-   dataprocessing
-   
-   usage
-   api
