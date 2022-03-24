@@ -53,7 +53,7 @@ This Jupyter notebook example can be used for implementing the pixel reassignmen
 
 
 Data Source
-===========
+-----------
 
 The data used in these examples can be downloaded from the link:
 
