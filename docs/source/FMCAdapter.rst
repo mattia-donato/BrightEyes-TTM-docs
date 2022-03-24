@@ -2,9 +2,13 @@
 FMC Adapter
 ===========
 FMC adapter connector card to interconnect a Xilinx® FPGA board with the EZ-USB® FX3™ SuperSpeed Explorer Kit
-- *Brand:* Cypress®
-- *Product code:* CYUSB3ACC-005
-- *Link to the product:* https://www.cypress.com/documentation/development-kitsboards/cyusb3acc-005-fmc-interconnect-board-ez-usb-fx3-superspeed
+
+* *Brand:* Cypress®
+
+* *Product code:* CYUSB3ACC-005
+
+* *Link to the product:* https://www.cypress.com/documentation/development-kitsboards/cyusb3acc-005-fmc-interconnect-board-ez-usb-fx3-superspeed
+
 
 The `CYUSB3ACC-005 FMC Interconnect Board for the EZ-USB® FX3™ SuperSpeed Explorer Kit <https://www.cypress.com/documentation/development-kitsboards/cyusb3acc-005-fmc-interconnect-board-ez-usb-fx3-superspeed>`_ is used to interconnect with the Xilinx® KC705 Evaluation kit FPGA board with the EZ-USB® FX3™ SuperSpeed Explorer Kit.
 
