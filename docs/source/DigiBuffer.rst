@@ -2,6 +2,17 @@
 8xDigiBuffer
 ============
 
+I/O multichannel (8x) digital buffer to match the impedance of external reference signals with the input impedance of the Xilinx® KC705 Evaluation kit
+
+* *Brand:* *custom-built*
+
+* *Product code:* *custom-built*
+
+* **How-to produce it:** :doc:`**READ THE NOTES** <boards/8xDigiBuffer>`
+
+* **Gerber File:** `8xDigiBuffer_Gerber.zip <boards/8xDigiBuffer/files/DigiBuff8_rev2_GerberFiles.zip>`_
+
+
 The 8xDigiBuffer is a custom built circuital component used as signal level (voltage) and impedance matching device. It is used as front-end logic to adapt and buffer external signals to the LVTTL 50 Ohm requirements of the  Xilinx® KC705 Evaluation kit.
 
 The 8xDigiBuffer accomodates 8x inputs and it is capable of translating the input voltage levels into  LVTTL 50 Ohm in real-time.
