@@ -19,13 +19,11 @@ Data analysis
 Data is acquired in a RAW format from the TTM using the same data protocol for all the possible and different applications. Then depending on the type of information/application needed is unpacked, calibrated and reconstructed (Fig.1).
 
 
-.. raw:: html
+.. figure:: img/DataProcessing.PNG
+ :width: 50%
+ :align: center
 
-   <figure>
-     <img src="/docs/img/DataProcessing.PNG" alt="Xilinx FPGA Board" width="3500"/></br>
-     <figcaption>Fig.1 - Data processing procedure</figcaption></br></br>
-   </figure>
-
+ Fig.1 - Data processing procedure
 
 In order to give the user some preliminary tools to process, reconstruct and use the acquired TTM data we developed 3 main examples using Jupyter Notebook and we provide the associated examples dataset on `Zenodo <https://doi.org/10.5281/zenodo.4912656>`_\ :
 
@@ -49,9 +47,15 @@ If the final goal of the measurement is to retrieve information from the correla
 
 This Jupyter notebook example can be used for implementing the pixel reassignment algorithm for image scanning microscopy (ISM) applications and for performing FLIM-phasor analysis with time-resolved data. After having used the `image reconstruction Jupyter Notebook example </dataProcessing/pynotebook/Image_reconstruction.ipynb>`_ for reconstructing a 4D dataset (x,y,t,ch) it is possible to feed this dataset into the `ISM & FLIM-phasor notebook </dataProcessing/pynotebook/ISM_Decay_Reconstruction_BrightEyes-TTM_v1_opensource.ipynb>`_. NB - time alignment of the fluorescence lifetime decays is required, accross the different available channels (ch), before feeding a 4D dataset into this notebook.
 
-Zenodo
-======
 
+Data Source
+===========
+
+The data used in these examples can be downloaded from the link
+     .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg
+        :alt: https://doi.org/10.5281/zenodo.4912656    
+        :target: https://doi.org/10.5281/zenodo.4912656
+        
 .. list-table::
    :header-rows: 1
 
@@ -59,20 +63,11 @@ Zenodo
      - Associated example dataset on Zenodo
    * - TSCPC Histogram
      - **Fluorescence_Spectroscopy_Dataset_40MHz** 
-     .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg
-        :target: https://doi.org/10.5281/zenodo.4912656
-        :alt: DOI
-     
+
    * - Imaging
      - **FLIM_512x512pixels_dwelltime250us_Dataset_40MHz** 
-     .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg
-        :target: https://doi.org/10.5281/zenodo.4912656
-        :alt: DOI
      
    * - FCS
      - **FCS_scanfcs_Dataset_40MHz** 
-     .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg
-        :target: https://doi.org/10.5281/zenodo.4912656
-        :alt: DOI
      
 
