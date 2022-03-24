@@ -21,4 +21,7 @@ Contents
 
    hardware
    software
+      
+   architecture
+   
    credits
