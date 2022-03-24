@@ -20,7 +20,7 @@ Data is acquired in a RAW format from the TTM using the same data protocol for a
 
 
 .. figure:: img/DataProcessing.PNG
- :width: 50%
+ :width: 100%
  :align: center
 
  Fig.1 - Data processing procedure
