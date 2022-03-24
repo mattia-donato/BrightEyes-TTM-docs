@@ -74,3 +74,10 @@ NIM to TTL converter
      - min. 1.5 GHz CPU clock, min. 16 GB RAM memory, SSD hard disk
    * - Operating system
      - Linux (native) / Windows (ported)
+
+.. toctree::
+   FPGABoard
+   USB3
+   FMCadapter
+   IOconnectorBoard
+   8xDigiBuffer
