@@ -1,9 +1,15 @@
 
-USB data transmission chip
-==========================
-- *Brand:* Cypress®
-- *Product code:* CYUSB3KIT-003 EZ-USB
-- *Link to the product:* https://www.cypress.com/documentation/development-kitsboards/cyusb3kit-003-ez-usb-fx3-superspeed-explorer-kit
+USB data transmission chip (FPGA to a host-PC)
+==============================================
+
+EZ-USB® FX3™ SuperSpeed Explorer Kit
+
+* *Brand:* Cypress®
+
+* *Product code:* CYUSB3KIT-003 EZ-USB
+
+* *Link to the product:* https://www.cypress.com/documentation/development-kitsboards/cyusb3kit-003-ez-usb-fx3-superspeed-explorer-kit
+
 
 The BrightEyes-TTM design transmits the data to the PC via USB 3.0, a `FX3-based board </boards/USB3.0/mainboard>`_ (Fig.1 - Cypress SuperSpeed Explorer kit board, CYUSB3KIT) connected through an `adapter card (CYUSB3ACC) </boards/USB3.0/FMCadapter>`_ to LPC-FMC connector of the Kintex-7 evaluation board. In order to use the FX3 chip, a dedicated module in the FPGA was developed. It has a simple interface (essentially FIFO with a data-valid flag) for the data transmission and it manages the FX3 control signals and the data-bus. The module was designed to work with the FX3 programmed with the SF_streamIN firmware part of the `AN65974 <https://www.cypress.com/documentation/application-notes/an65974-designing-ez-usb-fx3-slave-fifo-interface>`_ example provided by Cypress.
 
