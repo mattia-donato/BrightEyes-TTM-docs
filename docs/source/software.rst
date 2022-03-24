@@ -36,45 +36,49 @@ Examples Data Analysis Notebook
 
 In order to give the user some preliminary tools to process, reconstruct and use the acquired TTM data we developed 3 main examples using Jupyter Notebook and we provide the associated examples dataset on `Zenodo <https://doi.org/10.5281/zenodo.4912656>`_. Explore the `data processing and analysis section <dataProcessing>`_ for further info.
 
+TSCPC Histogram
+---------------
 
-* TSCPC Histogram
-  - Jupyter Notebook example for TCSPC histogram reconstruction
-  - `TCSPC_Histogram_reconstruction.pdf <dataProcessing/pynotebook/PDF/TCSPC_Histogram_reconstruction.pdf>`_
-  - `TCSPC_Histogram_reconstruction.ipynb <dataProcessing/pynotebook/TCSPC_Histogram_reconstruction.ipynb>`_
-  - **Fluorescence_Spectroscopy_Dataset_40MHz** 
+- Jupyter Notebook example for TCSPC histogram reconstruction
+- `TCSPC_Histogram_reconstruction.pdf <dataProcessing/pynotebook/PDF/TCSPC_Histogram_reconstruction.pdf>`_
+- `TCSPC_Histogram_reconstruction.ipynb <dataProcessing/pynotebook/TCSPC_Histogram_reconstruction.ipynb>`_
+- **Fluorescence_Spectroscopy_Dataset_40MHz** 
 
-  .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg
-    :target: https://doi.org/10.5281/zenodo.4912656
-    :alt: DOI
+.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg
+  :target: https://doi.org/10.5281/zenodo.4912656
+  :alt: DOI
 
-* Imaging
-  - Jupyter Notebook example for intensity images as well as FLIM images reconstruction
-  - `Image_reconstruction.pdf <dataProcessing/pynotebook/PDF/Image_reconstruction.pdf>`_
-  - `Image_reconstruction.ipynb <dataProcessing/pynotebook/Image_reconstruction.ipynb>`_
-  - **FLIM_512x512pixels_dwelltime250us_Dataset_40MHz** 
+Imaging
+-------
+- Jupyter Notebook example for intensity images as well as FLIM images reconstruction
+- `Image_reconstruction.pdf <dataProcessing/pynotebook/PDF/Image_reconstruction.pdf>`_
+- `Image_reconstruction.ipynb <dataProcessing/pynotebook/Image_reconstruction.ipynb>`_
+- **FLIM_512x512pixels_dwelltime250us_Dataset_40MHz** 
 
-  .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg
-     :target: https://doi.org/10.5281/zenodo.4912656
-     :alt: DOI
+.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg
+   :target: https://doi.org/10.5281/zenodo.4912656
+   :alt: DOI
 
-* FCS
-  - Jupyter Notebook example for calculating fluorescence correlation curve
-  - `FCS.pdf <dataProcessing/pynotebook/PDF/FCS.pdf>`_
-  - `FCS.ipynb <dataProcessing/pynotebook/FCS.ipynb>`_
-  - **FCS_scanfcs_Dataset_40MHz**  
+FCS
+---
+- Jupyter Notebook example for calculating fluorescence correlation curve
+- `FCS.pdf <dataProcessing/pynotebook/PDF/FCS.pdf>`_
+- `FCS.ipynb <dataProcessing/pynotebook/FCS.ipynb>`_
+- **FCS_scanfcs_Dataset_40MHz**  
 
-  .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg
-     :target: https://doi.org/10.5281/zenodo.4912656
-     :alt: DOI
+.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg
+   :target: https://doi.org/10.5281/zenodo.4912656
+   :alt: DOI
 
-* ISM and phasor analysis
-  - Jupyter Notebook example for implementing the pixel reassignment algorithm as well as the phasor plot analysis for FLIM data
-  - `ISM&Phasors.pdf <dataProcessing/pynotebook/PDF/ISM_Decay_Reconstruction_BrightEyes-TTM_v1_opensource.pdf>`_
-  - `ISM&Phasors.ipynb <dataProcessing/pynotebook/ISM_Decay_Reconstruction_BrightEyes-TTM_v1_opensource.ipynb>`_
-  - Output 4D (x,y,t,ch) file from  `Image_reconstruction.ipynb <dataProcessing/pynotebook/Image_reconstruction.ipynb>`_ notebook after having processed   - **FLIM_512x512pixels_dwelltime250us_Dataset_40MHz** 
+ISM and phasor analysis
+-----------------------
+- Jupyter Notebook example for implementing the pixel reassignment algorithm as well as the phasor plot analysis for FLIM data
+- `ISM&Phasors.pdf <dataProcessing/pynotebook/PDF/ISM_Decay_Reconstruction_BrightEyes-TTM_v1_opensource.pdf>`_
+- `ISM&Phasors.ipynb <dataProcessing/pynotebook/ISM_Decay_Reconstruction_BrightEyes-TTM_v1_opensource.ipynb>`_
+- Output 4D (x,y,t,ch) file from  `Image_reconstruction.ipynb <dataProcessing/pynotebook/Image_reconstruction.ipynb>`_ notebook after having processed   - **FLIM_512x512pixels_dwelltime250us_Dataset_40MHz** 
 
-  .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg
-     :target: https://doi.org/10.5281/zenodo.4912656
-     :alt: DOI
+.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg
+   :target: https://doi.org/10.5281/zenodo.4912656
+   :alt: DOI
      
 
