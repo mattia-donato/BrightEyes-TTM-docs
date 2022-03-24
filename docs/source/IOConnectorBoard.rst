@@ -14,25 +14,23 @@ FMC daugther card to interface the BrightEyes-TTM with external photon-signals
 
 The BrightEyes-TTM interfaces with the photon-signals thanks to a custom-built I/0s FMC daughter card (Fig.1) connected via the FPGA mezzanine connector (FMC-HPC). In principle, if needed, also the I/0s FMC daughter card can be modfied, further developed and yet manufactured to adapt the BrightEyes-TTM to any type of LSM signals. 
 
+.. figure:: img/SMA_FMC_IO_daughtercard.PNG 
+   :alt: I/Os SMA-FMC connector Board
+   :width: 50%
+   :align: center
 
-.. raw:: html
+   Fig.1 - I/Os SMA-FMC connector Board
 
-   <figure>
-     <img src="/docs/img/SMA_FMC_IO_daughtercard.PNG" alt="I/Os SMA-FMC connector Board" width="300"/>
-     <figcaption>Fig.1 - I/Os SMA-FMC connector Board</figcaption>
-   </figure>
 
 
 The custom-built I/0s FMC daughter card interlocks with the Xilinx KC705 Evaluation kit as shown in Fig.2 below:
 
+.. figure:: img/ConnectorBoard_connections.PNG
+   :alt: ConnectorBoard_connections
+   :width: 50%
+   :align: center
 
-.. raw:: html
-
-   <figure>
-     <img src="/docs/img/ConnectorBoard_connections.PNG" alt="ConnectorBoard_connections.PNG" width="500"/>
-     <figcaption>Fig.2 - I/Os SMA-FMC connector Board</figcaption>
-   </figure>
-
+   Fig.2 - I/Os SMA-FMC connector Board
 
 In this repository the following files are available for builing a SMA-FMC connector board:
 
@@ -55,8 +53,8 @@ Starting from these general open-source design files the FMC connector board can
 
 Check the tables below for the connection map:
 
-Pin and channels
-----------------
+Pinout synchronization
+----------------------
 
 .. list-table::
    :header-rows: 1
@@ -73,14 +71,14 @@ Pin and channels
      - Line
 
 
-Pin and channels
-----------------
+Pinout
+------
 
 .. list-table::
    :header-rows: 1
 
    * - CH
-     - SMA
+     - SMA on IO connector Board
      - FMC-HPC
      - FPGA (XDC)
    * - CH1
