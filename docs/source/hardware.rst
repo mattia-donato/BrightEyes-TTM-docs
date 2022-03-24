@@ -4,6 +4,21 @@ Hardware list
 
 In the table below you can find the complete list of all the needed hardware components for builing the BrightEyes-TTM.
 
+.. toctree::
+   FPGABoard
+   USB3
+   FMCAdapter
+   IOConnectorBoard
+
+Optional hardware parts
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. toctree::   
+   NIM2TTL
+   DigiBuffer
+
+
+
 Xilinx® KC705 Evaluation Board
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - Kintex-7 evaluation board for the BrightEyes-TTM
@@ -74,11 +89,3 @@ NIM to TTL converter
      - min. 1.5 GHz CPU clock, min. 16 GB RAM memory, SSD hard disk
    * - Operating system
      - Linux (native) / Windows (ported)
-
-.. toctree::
-   FPGABoard
-   USB3
-   FMCAdapter
-   IOConnectorBoard
-   NIM2TTL
-   DigiBuffer
