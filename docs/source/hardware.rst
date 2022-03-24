@@ -14,7 +14,7 @@ In the table below you can find the complete list of all the needed hardware com
 Optional hardware parts
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-.. toctree::   
+.. toctree::
    :maxdepth: 2
    NIM2TTL
    DigiBuffer
