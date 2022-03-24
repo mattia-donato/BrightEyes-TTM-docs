@@ -1,10 +1,9 @@
 
 I/Os SMA-FMC daugther connector card
 ====================================
-FMC adapter connector card to interconnect a Xilinx® FPGA board with the EZ-USB® FX3™ SuperSpeed Explorer Kit
-- *Brand:* Cypress®
-- *Product code:* CYUSB3ACC-005
-- *Link to the product:* https://www.cypress.com/documentation/development-kitsboards/cyusb3acc-005-fmc-interconnect-board-ez-usb-fx3-superspeed
+FMC daugther card to interface the BrightEyes-TTM with external photon-signals 
+- *Brand:* *custom-built*
+- *Product code:* *custom-built*
 
 The BrightEyes-TTM interfaces with the photon-signals thanks to a custom-built I/0s FMC daughter card (Fig.1) connected via the FPGA mezzanine connector (FMC-HPC). In principle, if needed, also the I/0s FMC daughter card can be modfied, further developed and yet manufactured to adapt the BrightEyes-TTM to any type of LSM signals. 
 
