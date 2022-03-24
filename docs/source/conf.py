@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'BrightEyes-TTM'
+copyright = '2022, Fondazione Istituto Italiano di Tecnologia'
+author = 'Molecular Microscopy and Spectroscopy, Fondazione Istituto Italiano di Tecnologia'
 
 release = '0.1'
 version = '0.1.0'
