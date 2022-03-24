@@ -1,9 +1,15 @@
 Introduction
 ============
 
+.. figure:: img/TTM-BrightEyes-Minimal.png
+ :alt: Assembly
+ :width: 50%
+ :align: center
+..
+
 The BrightEyes-TTM project `[1] <https://doi.org/10.1101/2021.10.11.463950>`_ born as an offshoot of the BrighEyes project founded by the ERC in 2018 (\ `Consolidator Grant, N. 818699 <https://vicidominilab.github.io/brighteyes/>`_\ ). The principal aim of the BrightEyes-TTM project is to give to any microscopy laboratory the possibility to implement and further develop single-photon microscopy. The second aim is to trigger the interest of the microscopy community, and establish the BrigthEyes-TTM as a new standard for single-photon laser scanning microscopy (LSM) experiments. 
 
-The BrightEyes-TTM mainly consists in a data-acquisition (DAQ) card able to implement the so-called photon time-tagging acquisition mode (Fig. 1). 
+The BrightEyes-TTM mainly consists in a data-acquisition (DAQ) card able to implement the so-called photon time-tagging acquisition mode (Fig. 2). 
 
 
 .. figure:: img/TT_Principle.jpg
@@ -11,7 +17,7 @@ The BrightEyes-TTM mainly consists in a data-acquisition (DAQ) card able to impl
  :width: 50%
  :align: center
 
- Fig. 1 - Time-tagging principle.
+ Fig. 2 - Time-tagging principle.
 
 
 
@@ -19,13 +25,6 @@ The time-tagging (TT) mode allows recording individual events and labelling each
 
 The BrightEyes-TTM is based on a `field-programmable-gate-array <https://en.wikipedia.org/wiki/Field-programmable_gate_array>`_ (FPGA), which allows implementing a series of `time-to-digital converters (TDCs) <https://en.wikipedia.org/wiki/Time-to-digital_converter>`_\ , i.e., the building block of the TTM. Current BrightEyes-TTM implementation allows to temporally tag single-photon events with respect to the laser sync (i.e., the start-stop time) - with 30 ps precision - and the reference events (such as pixel, line and frame signals) - with 4.2 ns precision. Because the BrightEyes-TTM is a `VHDL <https://en.wikipedia.org/wiki/VHDL>`_\ /\ `Verilog <https://en.wikipedia.org/wiki/Verilog>`_\ -based open-access project, it can be upgraded, modified, and customized by all the microscopy-makers.
 
-.. figure:: img/TTM-BrightEyes-Minimal.png
- :alt: Assembly
- :width: 50%
- :align: center
-
- Fig. 1 - BrightEyes-TTM.
- 
 The TTM can transfer data to a personal computer (PC) via USB 3.0 cable and can be connected to a fluorescence LSM setup, as a passive plug-n-play device, thanks to a custom interfacing connector board. As shown in the data processing examples below, the BrightEyes-TTM allows for fluorescence spectroscopy, fluorescence lifetime imaging microscopy (FLIM) [2], and for fluorescence lifetime correlation spectroscopy (FLFS) experiments [3]. More in general, the TTM can be used to fully explore the great momentum in the development of new bi-dimensional or one-dimensional asyncronous read-out SPAD array detectors [3,4].
 
 **In this repository you can find everything you need to build and further modify the BrightEyes-TTM in your lab.**
