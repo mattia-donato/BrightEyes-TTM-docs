@@ -10,7 +10,7 @@ Xilinx® KC705 Evaluation Board
 - *Brand:* Xilinx®
 - *Product code:* EK-K7-KC705-G
 - *Link to the product:* https://www.xilinx.com/products/boards-and-kits/ek-k7-kc705-g.html
-- **How-To / Firmware**: read here `<FPGABoard>`
+- **How-To / Firmware**: :doc:`FPGABoard`
 
 
 EZ-USB® FX3™ SuperSpeed Explorer Kit
