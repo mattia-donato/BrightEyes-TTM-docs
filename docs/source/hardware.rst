@@ -78,6 +78,7 @@ NIM to TTL converter
 .. toctree::
    FPGABoard
    USB3
-   FMCadapter
-   IOconnectorBoard
-   8xDigiBuffer
+   FMCAdapter
+   IOConnectorBoard
+   NIM2TTL
+   DigiBuffer
