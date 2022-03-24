@@ -55,112 +55,112 @@ Check the tables below for the connection map:
 
 **Pinout synchronization**
 
-   .. list-table::
-      :header-rows: 1
+.. list-table::
+   :header-rows: 1
 
-      * - FPGA PIN (.xdc)
-        - SMA on IO connector Board
-      * - J11
-        - Frame
-      * - J12
-        - Laser SYNC
-      * - J13
-        - Pixel
-      * - J14
-        - Line
+   * - FPGA PIN (.xdc)
+     - SMA on IO connector Board
+   * - J11
+     - Frame
+   * - J12
+     - Laser SYNC
+   * - J13
+     - Pixel
+   * - J14
+     - Line
 
 **Pinout channels**
 
 
-   .. list-table::
-      :header-rows: 1
+.. list-table::
+   :header-rows: 1
 
-      * - CH
-        - SMA on IO connector Board
-        - FMC-HPC
-        - FPGA (XDC)
-      * - CH1
-        - J2
-        - G21
-        - E19
-      * - CH2
-        - J7
-        - G22
-        - D19
-      * - CH3
-        - J30
-        - C10
-        - H30
-      * - CH4
-        - J10
-        - C11
-        - G30
-      * - CH5
-        - J24
-        - C14
-        - D29
-      * - CH6
-        - J8
-        - C15
-        - C30
-      * - CH7
-        - J33
-        - C18
-        - B28
-      * - CH8
-        - J28
-        - C19
-        - A28
-      * - CH9
-        - J37
-        - C26
-        - C19
-      * - CH10
-        - J16
-        - C27
-        - B19
-      * - CH11
-        - J5
-        - D11
-        - G29
-      * - CH12
-        - J34
-        - D12
-        - F30
-      * - CH13
-        - J19
-        - D14
-        - B30
-      * - CH14
-        - J9
-        - D15
-        - A30
-      * - CH15
-        - J13
-        - D17
-        - A25
-      * - CH16
-        - J23
-        - D18
-        - A26
-      * - CH17
-        - J22
-        - D23
-        - B22
-      * - CH18
-        - J27
-        - D24
-        - A22
-      * - CH19
-        - J32
-        - D26
-        - B18
-      * - CH20
-        - J11
-        - D27
-        - A18
-      * - CH21
-        - J25
-        - G9
-        - H26
+   * - CH
+     - SMA on IO connector Board
+     - FMC-HPC
+     - FPGA (XDC)
+   * - CH1
+     - J2
+     - G21
+     - E19
+   * - CH2
+     - J7
+     - G22
+     - D19
+   * - CH3
+     - J30
+     - C10
+     - H30
+   * - CH4
+     - J10
+     - C11
+     - G30
+   * - CH5
+     - J24
+     - C14
+     - D29
+   * - CH6
+     - J8
+     - C15
+     - C30
+   * - CH7
+     - J33
+     - C18
+     - B28
+   * - CH8
+     - J28
+     - C19
+     - A28
+   * - CH9
+     - J37
+     - C26
+     - C19
+   * - CH10
+     - J16
+     - C27
+     - B19
+   * - CH11
+     - J5
+     - D11
+     - G29
+   * - CH12
+     - J34
+     - D12
+     - F30
+   * - CH13
+     - J19
+     - D14
+     - B30
+   * - CH14
+     - J9
+     - D15
+     - A30
+   * - CH15
+     - J13
+     - D17
+     - A25
+   * - CH16
+     - J23
+     - D18
+     - A26
+   * - CH17
+     - J22
+     - D23
+     - B22
+   * - CH18
+     - J27
+     - D24
+     - A22
+   * - CH19
+     - J32
+     - D26
+     - B18
+   * - CH20
+     - J11
+     - D27
+     - A18
+   * - CH21
+     - J25
+     - G9
+     - H26
 
