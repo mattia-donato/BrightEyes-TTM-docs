@@ -37,11 +37,10 @@ Electronic Design Laboratory, Istituto Italiano di Tecnologia
 Copyright
 =========
 
-Time-Tagging Module\
-Copyright (c) 2021, Molecular Microscopy & Spectroscopy,\
-Italian Institute of Technology. All rights reserved.\
-\
-https://vicidominilab.github.io/
+``Time-Tagging Module``
+``Copyright (c) 2021, Molecular Microscopy & Spectroscopy,``
+``Fondazione Istituto Italiano di Tecnologia. All rights reserved.``
+``https://vicidominilab.github.io``
 
 License
 =======
