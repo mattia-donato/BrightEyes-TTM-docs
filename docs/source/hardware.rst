@@ -5,7 +5,7 @@ In the table below you can find the complete list of all the needed hardware com
 
 .. figure:: img/TTM_Assembled.png
  :alt: I/Os SMA-FMC connector Board
- :width: 50%
+ :width: 100%
  :align: center
 
  Fig 1. The BrightEyes-TTM core hardware assembled
