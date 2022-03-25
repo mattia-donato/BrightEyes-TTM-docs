@@ -1,6 +1,6 @@
 
-FMC Adapter
-===========
+USB data chip (FPGA to a host-PC) FMC Adapter
+=============================================
 FMC Interconnect Board for the EZ-USB® FX3™, a Xilinx® FPGA board with the EZ-USB® FX3™ SuperSpeed Explorer Kit
 
 
