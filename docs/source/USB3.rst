@@ -1,6 +1,6 @@
 
-USB data transmission chip (FPGA to a host-PC)
-==============================================
+USB data chip (FPGA to a host-PC)
+=================================
 
 EZ-USB® FX3™ SuperSpeed Explorer Kit
 
