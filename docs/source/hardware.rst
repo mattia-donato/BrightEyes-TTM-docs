@@ -4,10 +4,9 @@ Hardware list
 In the table below you can find the complete list of all the needed hardware components for builing the BrightEyes-TTM.
 
 .. figure:: img/TTM_Assembled.png
-   :alt: The BrightEyes-TTM core hardware assembled
    :width: 50%
    :align: center
-
+   Fig 1. The BrightEyes-TTM core hardware assembled
 
 
 .. toctree::
