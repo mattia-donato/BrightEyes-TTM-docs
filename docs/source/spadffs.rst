@@ -13,10 +13,12 @@ How do I use it?
 ----------------
 
 Under Examples, a Jupyter notebook is available with an example. The raw data set used here is available on 
+
 .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4161418.svg
    :target: https://doi.org/10.5281/zenodo.4161418
    :alt: DOI
-. This data set contains the fluorescence intensity time traces for the 25 pixels for a freely diffusing antibody conjugated Alexa 488 dye. The time traces can be analyzed in various ways, such as spot-variation FCS, two-focus or pair-correlation FCS, and intensity mean-squared-displacement analysis.
+
+This data set contains the fluorescence intensity time traces for the 25 pixels for a freely diffusing antibody conjugated Alexa 488 dye. The time traces can be analyzed in various ways, such as spot-variation FCS, two-focus or pair-correlation FCS, and intensity mean-squared-displacement analysis.
 
 How to install?
 ---------------
