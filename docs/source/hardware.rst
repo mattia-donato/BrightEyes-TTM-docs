@@ -10,13 +10,13 @@ In the table below you can find the complete list of all the needed hardware com
 
  Fig 1. The BrightEyes-TTM core hardware assembled
 
-:doc: `FPGABoard`
+:doc:`FPGABoard`
 
-:doc: `USB3`
+:doc:`USB3`
 
-:doc: `FMCAdapter`
+:doc:`FMCAdapter`
 
-:doc: `IOConnectorBoard`
+:doc:`IOConnectorBoard`
 
 
 
