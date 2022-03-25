@@ -1,14 +1,18 @@
 Welcome to BrightEyes-TTM's documentation!
-===================================
+==========================================
 
 **BrightEyes-TTM**
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Index:
 
 .. note::
 
-   This project is under active development.
+   This documentation is under development
+
+
+.. note::
+
+   There are two version of BrightEyes-TTM. The article on arXiv is referred to the version v1.0, the article published on XXXX is refered to the version v2.0.
 
 Contents
 --------
