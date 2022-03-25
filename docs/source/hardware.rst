@@ -4,9 +4,11 @@ Hardware list
 In the table below you can find the complete list of all the needed hardware components for builing the BrightEyes-TTM.
 
 .. figure:: img/TTM_Assembled.png
-   :width: 50%
-   :align: center
-   Fig 1. The BrightEyes-TTM core hardware assembled
+ :alt: I/Os SMA-FMC connector Board
+ :width: 50%
+ :align: center
+
+ Fig 1. The BrightEyes-TTM core hardware assembled
 
 
 .. toctree::
