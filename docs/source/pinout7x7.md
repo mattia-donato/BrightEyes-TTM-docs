@@ -98,6 +98,13 @@
 |          48         | OUT49_P         | G18      | LA16_P       | B27      |
 |          48         | OUT49_N         | G19      | LA16_N       | A27      |
 |                     |                 |          |              |          |
+|                     | VREF1           | G27      | LA25_P       | G17      |
+|                     | VREF0           | G28      | LA25_N       | F17      |
+|                     | EN_SPAD         | G30      | LA29_P       | C17      |
+|                     |                 |          |              |          |
+|                     | SDA             | C31      | HPC_IIC_SDA  | IIC MUX  |
+|                     | SCL             | C30      | HPC_IIC_SCL  | IIC MUX  |
+|                     |                 |          |              |          |
 |                     | **IIT ADAPTER** |          |              |          |
 |                     | J2              | H28      | LA24_P       | A16      |
 |                     | J3              | H29      | LA24_N       | A17      |
@@ -107,10 +114,3 @@
 |                     | J7              | H35      | LA30_N       | C22      |
 |                     | J8              | H37      | LA32_P       | D21      |
 | **PX24 Duplicated** | J9              | H38      | LA32_N       | C21      |
-|                     |                 |          |              |          |
-|                     | VREF1           | G27      | LA25_P       | G17      |
-|                     | VREF0           | G28      | LA25_N       | F17      |
-|                     | EN_SPAD         | G30      | LA29_P       | C17      |
-|                     |                 |          |              |          |
-|                     | SDA             | C31      | HPC_IIC_SDA  | IIC MUX  |
-|                     | SCL             | C30      | HPC_IIC_SCL  | IIC MUX  |
