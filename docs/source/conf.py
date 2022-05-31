@@ -1,4 +1,14 @@
-# Configuration file for the Sphinx documentation builder.
+import recommonmark
+from recommonmark.transform import AutoStructify
+
+from recommonmark.parser import CommonMarkParser
+
+source_parsers = {
+    '.md': 'recommonmark.parser.CommonMarkParser',
+}
+
+source_suffix = ['.rst', '.md']
+
 
 # -- Project information
 
@@ -17,8 +27,10 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.autosectionlabel',
-    'sphinx.ext.intersphinx',
-]
+    'sphinx.ext.intersphinx',    
+    'sphinx.ext.ifconfig',
+    'sphinx_markdown_tables']
+
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
