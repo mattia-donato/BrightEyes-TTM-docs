@@ -18,6 +18,8 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.autosectionlabel',
     'sphinx.ext.intersphinx',
+    'myst_parser'
+
 ]
 
 intersphinx_mapping = {

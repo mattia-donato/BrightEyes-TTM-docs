@@ -1,12 +1,11 @@
-Specifications
---------------
+# Specifications
 
-
+```{eval-rst}
 .. list-table::
    :header-rows: 1
 
-   * - 
-     - 
+   * -
+     -
    * - Single shot precision \*
 
      - 30 ps
@@ -21,18 +20,19 @@ Specifications
    * - Differential non-linearity
      - ~ 6 % RMS
 
+```
 
 \* Gaussan fitting sigma value
 
-\** Tested at 200 ns (5 MHz), 100 ns (10 MHz), 50 ns (20 MHz), 25 ns (40 MHz), 12.5 ns (80 MHz) 
+\*\* Tested at 200 ns (5 MHz), 100 ns (10 MHz), 50 ns (20 MHz), 25 ns (40 MHz), 12.5 ns (80 MHz)
 
-BrightEyes-TTM implementation v. 1.0
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+## BrightEyes-TTM implementation v. 1.0
 
+```{eval-rst}
 .. list-table::
    :header-rows: 1
 
-   * - 
+   * -
      - #
    * - Input channels with 30 ps precision
      - 21
@@ -40,4 +40,4 @@ BrightEyes-TTM implementation v. 1.0
      - 3
    * - Laser sync channels
      - 1
-
+```

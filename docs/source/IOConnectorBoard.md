@@ -1,39 +1,35 @@
+# I/Os SMA-FMC daugther connector card
 
-I/Os SMA-FMC daugther connector card
-====================================
-
-FMC daugther card to interface the BrightEyes-TTM with external photon-signals 
+FMC daugther card to interface the BrightEyes-TTM with external photon-signals
 
 - *Brand:* *custom-built*
-
 - *Product code:* *custom-built*
+- **Description:** {doc}`**READ THE NOTES** <IOConnectorBoard>`
+- **Gerber File:** Gerber_SMA_FMC.zip \<boards/IOconnectorBoard/Gerber_SMA_FMC.zip>
 
-- **Description:** :doc:`**READ THE NOTES** <IOConnectorBoard>`
+The BrightEyes-TTM interfaces with the photon-signals thanks to a custom-built I/0s FMC daughter card (Fig.1) connected via the FPGA mezzanine connector (FMC-HPC). In principle, if needed, also the I/0s FMC daughter card can be modfied, further developed and yet manufactured to adapt the BrightEyes-TTM to any type of LSM signals.
 
-- **Gerber File:** Gerber_SMA_FMC.zip <boards/IOconnectorBoard/Gerber_SMA_FMC.zip>
+:::{figure} img/SMA_FMC_IO_daughtercard.PNG
+:align: center
+:alt: I/Os SMA-FMC connector Board
+:width: 50%
 
-The BrightEyes-TTM interfaces with the photon-signals thanks to a custom-built I/0s FMC daughter card (Fig.1) connected via the FPGA mezzanine connector (FMC-HPC). In principle, if needed, also the I/0s FMC daughter card can be modfied, further developed and yet manufactured to adapt the BrightEyes-TTM to any type of LSM signals. 
-
-.. figure:: img/SMA_FMC_IO_daughtercard.PNG 
-   :alt: I/Os SMA-FMC connector Board
-   :width: 50%
-   :align: center
-
-   Fig.1 - I/Os SMA-FMC connector Board
-
-
+Fig.1 - I/Os SMA-FMC connector Board
+:::
 
 The custom-built I/0s FMC daughter card interlocks with the Xilinx KC705 Evaluation kit as shown in Fig.2 below:
 
-.. figure:: img/ConnectorBoard_connections.PNG
-   :alt: ConnectorBoard_connections
-   :width: 50%
-   :align: center
+:::{figure} img/ConnectorBoard_connections.PNG
+:align: center
+:alt: ConnectorBoard_connections
+:width: 50%
 
-   Fig.2 - I/Os SMA-FMC connector Board
+Fig.2 - I/Os SMA-FMC connector Board
+:::
 
 In this repository the following files are available for builing a SMA-FMC connector board:
 
+```{eval-rst}
 .. list-table::
    :header-rows: 1
 
@@ -48,13 +44,15 @@ In this repository the following files are available for builing a SMA-FMC conne
    * - Connector card 3D model
      - `SMA_FMC-3D.pdf </boards/IOconnectorBoard/SMA_FMC-3D.pdf>`_
 
+```
 
-Starting from these general open-source design files the FMC connector board can be engineered for interfacing the TTM to any type of detectors or microscope setups. 
+Starting from these general open-source design files the FMC connector board can be engineered for interfacing the TTM to any type of detectors or microscope setups.
 
 Check the tables below for the connection map:
 
 **Pinout synchronization**
 
+```{eval-rst}
 .. list-table::
    :header-rows: 1
 
@@ -68,10 +66,11 @@ Check the tables below for the connection map:
      - Pixel
    * - J14
      - Line
+```
 
 **Pinout channels**
 
-
+```{eval-rst}
 .. list-table::
    :header-rows: 1
 
@@ -163,4 +162,4 @@ Check the tables below for the connection map:
      - J25
      - G9
      - H26
-
+```
