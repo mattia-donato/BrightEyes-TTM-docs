@@ -2,7 +2,7 @@
 
 The BrightEyes-TTM project [\[1\]](https://doi.org/10.1101/2021.10.11.463950) born as an offshoot of the BrighEyes project founded by the ERC in 2018 ([Consolidator Grant, N. 818699](https://vicidominilab.github.io/brighteyes/)). The principal aim of the BrightEyes-TTM project is to give to any microscopy laboratory the possibility to implement and further develop single-photon microscopy. The second aim is to trigger the interest of the microscopy community, and establish the BrigthEyes-TTM as a new standard for single-photon laser scanning microscopy (LSM) experiments.
 
-:::{figure} img/TTM-BrightEyes-Minimal.png
+:::{figure-md} img/TTM-BrightEyes-Minimal.png
 :align: center
 :alt: Assembly
 :width: 50%
@@ -12,7 +12,7 @@ Fig. 1 - The BrightEyes Time-Tagging Module
 
 The BrightEyes-TTM mainly consists in a data-acquisition (DAQ) card able to implement the so-called photon time-tagging acquisition mode (Fig. 1).
 
-:::{figure} img/TT_Principle.jpg
+:::{figure-md} img/TT_Principle.jpg
 :align: center
 :alt: Assembly
 :width: 50%
