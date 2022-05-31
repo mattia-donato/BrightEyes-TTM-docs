@@ -9,7 +9,7 @@ FMC daugther card to interface the BrightEyes-TTM with external photon-signals
 
 The BrightEyes-TTM interfaces with the photon-signals thanks to a custom-built I/0s FMC daughter card (Fig.1) connected via the FPGA mezzanine connector (FMC-HPC). In principle, if needed, also the I/0s FMC daughter card can be modfied, further developed and yet manufactured to adapt the BrightEyes-TTM to any type of LSM signals.
 
-:::{figure-md} img/SMA_FMC_IO_daughtercard.PNG
+:::{figure} img/SMA_FMC_IO_daughtercard.PNG
 :align: center
 :alt: I/Os SMA-FMC connector Board
 :width: 50%
@@ -19,7 +19,7 @@ Fig.1 - I/Os SMA-FMC connector Board
 
 The custom-built I/0s FMC daughter card interlocks with the Xilinx KC705 Evaluation kit as shown in Fig.2 below:
 
-:::{figure-md} img/ConnectorBoard_connections.PNG
+:::{figure} img/ConnectorBoard_connections.PNG
 :align: center
 :alt: ConnectorBoard_connections
 :width: 50%

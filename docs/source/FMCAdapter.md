@@ -10,7 +10,7 @@ The [CYUSB3ACC-005 FMC Interconnect Board for the EZ-USB® FX3™ SuperSpeed Exp
 
 Follow the [Quick start guide](https://www.cypress.com/file/133861/download) or Fig.1 below on how to interconnect the different components.
 
-:::{figure-md} img/USBchip_adapter_assembly.PNG
+:::{figure} img/USBchip_adapter_assembly.PNG
 :align: center
 :alt: I/Os SMA-FMC connector Board
 :width: 50%

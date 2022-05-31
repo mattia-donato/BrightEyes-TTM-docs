@@ -10,7 +10,7 @@ BrightEyes-TTM is based on a commercially available and low cost [field-programm
 
 After having downloaded and installed [Vivado Design Suite](https://www.xilinx.com/products/design-tools/vivado.html) (Xilinx FPGA Programming software environment) the Xilinx FPGA evaluation card can be directly programmed with a standard precompiled [BrightEyes-TTM firmware](/FPGA/ttm/project/ttm.runs/impl_1/top.bit) (see the BrightEyes-TTM FPGA architecture section below for further info on the standard firmware design) or by synthesizing a new project solution starting from the low-level [VHDL/verilog open-source code](/FPGA/ttm/hdl).
 
-:::{figure-md} img/KC705_FPGA.png
+:::{figure} img/KC705_FPGA.png
 :align: center
 :alt: Xilinx FPGA Board
 :width: 50%
