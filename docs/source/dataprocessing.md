@@ -11,7 +11,7 @@ Follow the links below for downloading and installing the required librares.
 
 Data is acquired in a RAW format from the TTM using the same data protocol for all the possible and different applications. Then depending on the type of information/application needed is unpacked, calibrated and reconstructed (Fig.1).
 
-:::{figure} img/DataProcessing.PNG
+:::{figure-md} img/DataProcessing.PNG
 :align: center
 :width: 100%
 

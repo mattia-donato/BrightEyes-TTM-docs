@@ -13,7 +13,7 @@ The 8xDigiBuffer accomodates 8x inputs and it is capable of translating the inpu
 
 In the current application and implementation, the 8xDigiBuffer, is used to make the pixel, line and frame clocks in a suitable form to be read bythe Xilinx® KC705 Evaluation kit SMA ports (Fig. 1).
 
-:::{figure} img/8xDigiBuffer_connections.PNG
+:::{figure-md} img/8xDigiBuffer_connections.PNG
 :align: center
 :alt: I/Os SMA-FMC connector Board
 :width: 600

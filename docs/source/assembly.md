@@ -4,7 +4,7 @@ The Xilinx® KC705 Evaluation board, the Cypress® FX3™ SuperSpeed Explorer Ki
 
 The Cypress® FX3™ SuperSpeed Explorer Kit board interlock into the FMC-LPC connector block. While the I/Os connector cards is connected to the FMC-HPC connector.
 
-:::{figure} img/TTM_Assembly.PNG
+:::{figure-md} img/TTM_Assembly.PNG
 :align: center
 :alt: Assembly
 :width: 3500
@@ -14,7 +14,7 @@ Fig.3 - BrightEyes-TTM detailed assembly.
 
 In the current application CH11 on J5 input connector board is internally duplicated and sampled with a 400MHz clock and returned as output on pin J17. This feature allow to monitor CH11 activity and content while it is still connected and used into the TTM design (Fig.4).
 
-:::{figure} img/TTM_ch11_duplication.PNG
+:::{figure-md} img/TTM_ch11_duplication.PNG
 :align: center
 :alt: Assembly
 :width: 600

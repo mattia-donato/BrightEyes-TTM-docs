@@ -2,7 +2,7 @@
 
 The BrightEyes-TTM implementation was conceived and designed having in mind the fluorescence applications thus providing a good compromise between cost, photon-timing precision and resolution, temporal range, electronics dead-time, maximum photon-flux. The low FPGA resource in the current implementation ensures the highly scalability of the architecture, potentially enabling more channels and, in general, new applications. We chose an FPGA approach to grant both quick prototyping and versatility, and to give the miscroscopy community the posibility of further modifing the TTM depending on future and always-evolving needs.
 
-:::{figure} img/BrightEyesTTM_architecture.PNG
+:::{figure-md} img/BrightEyesTTM_architecture.PNG
 :align: center
 :alt: BrightEyes TTM architecture
 :width: 50%
