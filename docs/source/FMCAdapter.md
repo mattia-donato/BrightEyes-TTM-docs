@@ -17,3 +17,8 @@ Follow the [Quick start guide](https://www.cypress.com/file/133861/download) or 
 
 Fig.1 - Assembly for CYUSB3ACC-005 FMC Interconnect Board and the EZ-USB® FX3™ SuperSpeed Explorer Kit
 :::
+
+```{toctree}
+:hidden:
+USB3
+```
