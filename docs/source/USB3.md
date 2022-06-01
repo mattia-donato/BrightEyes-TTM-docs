@@ -1,4 +1,4 @@
-# USB data chip
+### USB data chip
 
 EZ-USB® FX3™ SuperSpeed Explorer Kit
 
