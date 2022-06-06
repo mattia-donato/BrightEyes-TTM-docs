@@ -16,11 +16,6 @@ There are two version of BrightEyes-TTM. The article on arXiv is referred to the
 ```{toctree}
 :hidden:
 index
-```
-
-```{toctree}
-:hidden:
-maxdepth: 5
 
 BrightEyes
 
