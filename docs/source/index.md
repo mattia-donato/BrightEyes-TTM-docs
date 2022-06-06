@@ -13,9 +13,14 @@ There are two version of BrightEyes-TTM. The article on arXiv is referred to the
 ```
 
 ## Contents
+
 ```{toctree}
 :hidden:
-index
+index.md
+```
+
+```{toctree}
+:hidden:
 
 BrightEyes
 
