@@ -11,8 +11,8 @@ pinout7x7
 .. list-table::
    :header-rows: 1
 
-   * - FPGA PIN (.xdc)
-     - SMA on Xilinx KC705
+   * - SMA on Xilinx KC705 board (.xdc)
+     - Input
    * - J11
      - Frame
    * - J12
