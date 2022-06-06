@@ -37,7 +37,8 @@ html_theme = 'sphinx_rtd_theme'
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 
-master_doc = 'index'
+#master_doc = 'index'
+root_doc = 'index'
 
 myst_enable_extensions = [
     "amsmath",
