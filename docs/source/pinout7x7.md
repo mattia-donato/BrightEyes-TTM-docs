@@ -1,4 +1,7 @@
-## Pinout I/Os 7x7SPAD-to-FMC board
+## SPAD7x7-to-FMC board
+FMC daugther card to interface the BrightEyes-TTM with external photon-signals
+
+### Pinout I/Os 7x7SPAD-to-FMC board
 
 | **CH (VHDL)**       |     **DET**     | **CONN** | **NAME HPC** | **FPGA** |
 |---------------------|:---------------:|:--------:|:------------:|:--------:|
