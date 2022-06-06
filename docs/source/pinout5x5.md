@@ -164,7 +164,7 @@ Check the tables below for the connection map:
 ```
 
 
-## Pinout I/Os SMA/B-to-FMC board
+### Pinout I/Os SMA/B-to-FMC board
 
 |   **SPAD 5x5 PX**   | **SMA/B-FMC** | **CH  (VHDL)** |       **NET**      | **HPC** | **XDC** |
 |:-------------------:|:-------------:|:--------------:|:------------------:|:-------:|:-------:|
