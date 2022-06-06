@@ -12,11 +12,8 @@ Fig 1. The BrightEyes-TTM core hardware assembled
 
 ```{toctree}
 FPGABoard
-USB3
 FMCAdapter
 IOConnectorBoard
-pinout5x5
-pinout7x7
 ```
 
 ## Optional hardware parts
