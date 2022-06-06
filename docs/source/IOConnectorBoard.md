@@ -1,4 +1,4 @@
-# I/Os SMA-FMC daugther connector card
+# I/Os connector cards
 
 ```{toctree}
 pinout5x5
