@@ -35,7 +35,7 @@
    * -
      - #
    * - Input channels with 30 ps precision
-     - 21
+     - 25. (49 channels not fully tested)
    * - Input channels with < 4.2 ns precision
      - 3
    * - Laser sync channels
