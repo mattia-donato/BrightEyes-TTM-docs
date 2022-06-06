@@ -10,5 +10,24 @@ There are two version of BrightEyes-TTM. The article on arXiv is referred to the
 
 ## Contents
 ```{toctree}
+:hidden:
+:maxdepth: 1
 index
+```
+
+```{toctree}
+:hidden:
+maxdepth: 5
+
+BrightEyes
+
+specifications
+assembly
+
+hardware
+software
+
+architecture
+
+credits
 ```
