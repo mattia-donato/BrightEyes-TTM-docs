@@ -1,6 +1,6 @@
 # Assembly Instructions
 
-The Xilinx® KC705 Evaluation board, the Cypress® FX3™ SuperSpeed Explorer Kit and the connector card can be easily stacked together, using FMC connectors, as shown below (Fig. 3). I/Os connections are also labeled for a more intuitive assembly and mapped in the \[I/O pins table\](boards/IOconnectorBoard/README.md) which shows the correspondence between inputs (typically the digital output from the SPAD array detector elements, named photon chaneels) and the connection pins. For a correct use of the BrightEyes-TTM the [dip switches](https://en.wikipedia.org/wiki/DIP_switch) in the orange BOX (always Fig.3) should be all set to the OFF position.
+The Xilinx® KC705 Evaluation board, the Cypress® FX3™ SuperSpeed Explorer Kit and the connector card can be easily stacked together, using FMC connectors, as shown below (Fig. 3). I/Os connections are also labeled for a more intuitive assembly and mapped in the [I/O pins table](IOConnectorBoard.md) which shows the correspondence between inputs (typically the digital output from the SPAD array detector elements, named photon chaneels) and the connection pins. For a correct use of the BrightEyes-TTM the [dip switches](https://en.wikipedia.org/wiki/DIP_switch) in the orange BOX (always Fig.3) should be all set to the OFF position.
 
 The Cypress® FX3™ SuperSpeed Explorer Kit board interlock into the FMC-LPC connector block. While the I/Os connector cards is connected to the FMC-HPC connector.
 
