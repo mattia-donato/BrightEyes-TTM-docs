@@ -13,7 +13,7 @@ The BrightEyes-TTM can be connected to commercial or custom imaging microscopes 
 The FPGA synchronization inputs have LVTTL level so if you need to adapt the signal see "MPD NIM 2 TTL" and "8xDigiBuffer" in the Hardware list here below.
 
 ### Detector
-The BrightEyes-TTM channel inputs supports either LVTTL or LVDS input signals. That means it can receive signal from SPAD array detectors (which we strongly suggest) as well from ADP or PMT after CFD. Depending from the type of signal you will need to use a specific firmware and "I/O to FMC adapter board" in the Hardware list here below.
+The BrightEyes-TTM channel inputs supports either LVTTL or LVDS level input signals. Depending from the type of signal you will need to use a specific firmware and "I/O to FMC adapter board" in the Hardware list here below. This means that the BrightEyes-TTM can use as input channel PMT (+CFD) or APD, as well a SPAD array detectors which we strongly suggest. BrightEyes-TTM has been designed for SPAD prototype with 25 channel (LVTTL levels) and for commercial SPAD with 49 channel (LVDS levels). 
 
 ## Hardware
 |      |     |     |
