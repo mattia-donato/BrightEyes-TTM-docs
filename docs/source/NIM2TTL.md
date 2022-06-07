@@ -1,8 +1,10 @@
 # MPD NIM 2 TTL
 
-FMC daugther card to interface the BrightEyes-TTM with external photon-signals
+MPD NIM 2 TTL
 
-- *Brand:* *custom-built*
-- *Product code:* *custom-built*
-- **Description:** {doc}`**READ THE NOTES** <IOConnectorBoard>`
-- **Gerber File:** Gerber_SMA_FMC.zip \<boards/IOconnectorBoard/Gerber_SMA_FMC.zip>
+- *Brand:* Micro Photon Devices
+- *Product code:* NIM2TTL
+- *Link to the product:* <http://www.micro-photon-devices.com/Products/Instrumentation/NIM2TTL-Converter>
+
+
+This is a commercial device which we use for converting the laser clock signal from NIM levels to TTL levels.
