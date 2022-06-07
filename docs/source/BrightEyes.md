@@ -35,7 +35,7 @@ The TTM can transfer data to a personal computer (PC) via USB 3.0 cable and can 
 
 The BrightEyes-TTM is composed by three main parts: the FPGA evaluation board ([Xilinx® KC705 Evaluation board](https://www.xilinx.com/products/boards-and-kits/ek-k7-kc705-g.html)); the FX3 data transmission chip ([EZ-USB® FX3™ SuperSpeed Explorer Kit](https://www.cypress.com/documentation/development-kitsboards/cyusb3kit-003-ez-usb-fx3-superspeed-explorer-kit) and [FMC Interconnect Board for the EZ-USB® FX3™ SuperSpeed Explorer Kit](https://www.cypress.com/documentation/development-kitsboards/cyusb3acc-005-fmc-interconnect-board-ez-usb-fx3-superspeed)); a custom-made I/Os SMA-FMC daugther connector card. The three part need to be assembled (Fig. 3) following the instruction below (expand the Assembly Instuctions). Both the FX3 data transmission chip and the I/Os FMC daugther card easily interlock to the main Xilinx® FPGA board.
 
-:::{figure} img/Kintex7-TTM.JPG
+:::{figure} img/Kintex7-TTM.jpg
 :align: center
 :alt: AssemblyK7
 :width: 50%
