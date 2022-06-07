@@ -2,7 +2,7 @@
 In this section you will find the hardware and software needed to build and run the BrightEyes-TTM.
 
 ## Microscope
-The BrightEyes-TTM can be connected to commercial or custom imaging microscopes if they provide the following synchronization outputs:
+The BrightEyes-TTM can be connected to commercial or custom imaging microscopes as long they provide the following synchronization outputs:
 |      |     |     |
 |------|-----|-----|
 | Laser SYNC | | needed |
@@ -22,11 +22,34 @@ The BrightEyes-TTM channel inputs supports either LVTTL or LVDS level input sign
 |------|-----|-----|
 |PC  <br /> Req.: USB 3.0, >= 1.5 GHz CPU, >= 16 GB RAM, SSD hard disk, |  commercial   | needed <br /> (strongly suggested linux OS)   |
 |[Xilinx Kintex-7 KC705 evaluation board](FPGABoard.md)| commercial  | |
-|[CYUSB3ACC-005 FMC Interconnect Board for the EZ-USB® FX3™ SuperSpeed Explorer Kit](FMCAdapter.md)| commercial  | |
+|[Cypress FX3™ SuperSpeed Explorer Kit](FMCAdapter.md)| commercial  | |
 |[I/O to FMC adapter board](IOConnectorBoard.md) | custom |      |
 |[MPD NIM 2 TTL](NIM2TTL.md) | commercial| strongly suggested   |
 |[8xDigiBuffer](DigiBuffer.md) | custom | strongly suggested | 
 
+## Firmware
+|      |     |
+|------|-----|
+|[Cypress FX3™ SuperSpeed Explorer Kit](USB3.md)| firmware external  | |
+|[BrightEyes-TTM](firmware.md) | firmware custom and open-source  |
+
 ## Software
+### Data Acquisition
+|      |     |     |
 |------|-----|-----|
-|Your own microscope <br /> sync outputs (laser, pixel, line, frame) |  |  |
+| [DataReceiver](software.md#dataReceiver) | | Linux / Windows |
+
+### Data Analysis libraries
+In order to read the raw data from the BrightEyes-TTM acquisition `libttp` is required. Moreover to run correctly the BrightEyes-TTM Notebook examples `spadffs` is needed too.
+
+** TO BE FIXED **
+```
+pip install libttp spadffs
+```
+
+### Data Processing (Python Notebooks)
+The data processing example are given here:
+|      |     |     |
+|------|-----|-----|
+| [BrightEyes-TTM dataprocessing](dataprocessing.md) | | Python Notebook examples |
+
