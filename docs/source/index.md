@@ -7,7 +7,7 @@ sd_hide_title: true
 
 BrightEyes
 
-specifications
+gettingstarted
 assembly
 
 hardware
