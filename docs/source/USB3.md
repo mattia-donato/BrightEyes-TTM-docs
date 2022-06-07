@@ -12,8 +12,10 @@ The [Cypress SuperSpeed Explorer kit Board](/boards/USB3.0/mainboard) and its [F
 
 - [Cypress SuperSpeed Explorer kit](https://www.cypress.com/documentation/development-kitsboards/cyusb3kit-003-ez-usb-fx3-superspeed-explorer-kit)
 - [FMC adapter card](https://www.cypress.com/documentation/development-kitsboards/cyusb3acc-005-fmc-interconnect-board-ez-usb-fx3-superspeed)
+ 
+#### Firmware
 
-The Cypress SuperSpeed Explorer kit main board has to be programmed, to work with TTM FPGA firmware, with the SF_streamIN, which is part of the Cypress Application Note "AN65974 - Designing with the EZ-USB™ FX3". The file AN65974.zip which contains the firmware SF_streamIN.img can be downloaded from this [link](https://www.cypress.com/documentation/application-notes/an65974-designing-ez-usb-fx3-slave-fifo-interface). This allow for the acquired data to be trasmitted to a host-PC.
+The Cypress SuperSpeed Explorer kit main board has to be programmed, to work with TTM FPGA firmware, with the SF_streamIN, which is part of the Cypress Application Note "AN65974 - Designing with the EZ-USB™ FX3". The file AN65974.zip which contains the **firmware SF_streamIN.img can be downloaded from this** [link](https://www.cypress.com/documentation/application-notes/an65974-designing-ez-usb-fx3-slave-fifo-interface). This allow for the acquired data to be trasmitted to a host-PC.
 
 :::{figure} img/FX3_Cypress.PNG
 :align: center
