@@ -1,5 +1,10 @@
 ## SPAD7x7-to-FMC board
-FMC daugther card to interface the BrightEyes-TTM with external photon-signals
+FMC daugther card to interface the BrightEyes-TTM with external photon-signals from a commercial 7x7 SPAD (49 channels) detector.
+
+- *Brand:* *custom-built*
+- *Product code:* *custom-built*
+- **Description:** {doc}`**READ THE NOTES** <IOConnectorBoard>`
+- **Gerber File:** Gerber_7x7SPAD_FMC.zip \<boards/IOconnectorBoard/Gerber_7x7SPAD_FMC.zip>
 
 ### Pinout I/Os 7x7SPAD-to-FMC board
 
