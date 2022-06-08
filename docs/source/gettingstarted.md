@@ -2,7 +2,7 @@
 In this section you will find the hardware and software needed to build and run the BrightEyes-TTM.
 
 ## Microscope
-The BrightEyes-TTM can be connected to commercial or custom imaging microscopes as long they provide the following synchronization outputs:
+The BrightEyes-TTM can be connected to commercial or custom imaging microscopes as long as they provide the following synchronization outputs:
 |      |     |     |
 |------|-----|-----|
 | Laser SYNC | | needed |
