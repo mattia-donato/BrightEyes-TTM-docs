@@ -42,7 +42,6 @@ The BrightEyes-TTM channel inputs supports either LVTTL or LVDS level input sign
 ### Data Analysis libraries
 In order to read the raw data from the BrightEyes-TTM acquisition `libttp` is required. Moreover to run correctly the BrightEyes-TTM Notebook examples `spadffs` is needed too.
 
-** TO BE FIXED **
 ```
 pip install libttp spadffs
 ```
