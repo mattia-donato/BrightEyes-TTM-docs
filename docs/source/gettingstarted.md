@@ -3,12 +3,12 @@ In this section you will find the hardware and software needed to build and run 
 
 ## Microscope
 The BrightEyes-TTM can be connected to commercial or custom imaging microscopes as long as they provide the following synchronization outputs:
-|      |     |     |
-|------|-----|-----|
-| Laser SYNC | | needed |
-| Pixel | | needed <br /> for imaging |
-| Line | | needed <br /> for imaging |
-| Frame | | needed <br /> for imaging |
+|   |    |
+|------|-----|
+| Laser SYNC | needed |
+| Pixel | needed <br /> for imaging |
+| Line | needed <br /> for imaging |
+| Frame | needed <br /> for imaging |
 
 ...and of course the detector signals.
 
@@ -20,7 +20,7 @@ The BrightEyes-TTM channel inputs supports either LVTTL or LVDS level input sign
 ## Hardware
 |      |     |     |
 |------|-----|-----|
-|PC  <br /> Minimum Requirements: USB 3.0, >= 1.5 GHz CPU, >= 16 GB RAM, SSD hard disk, |  commercial   | needed <br /> (strongly suggested linux OS)   |
+|PC  <br /> Minimum Requirements: USB 3.0, >= 1.5 GHz CPU, >= 16 GB RAM, SSD hard disk, |  commercial   | needed <br /> (strongly suggested<br /> Linux OS)   |
 |[Xilinx Kintex-7 KC705 evaluation board](FPGABoard.md)| commercial  | |
 |[Cypress FX3™ SuperSpeed Explorer Kit](FMCAdapter.md)| commercial  | |
 |[I/O to FMC adapter board](IOConnectorBoard.md) | custom |      |
