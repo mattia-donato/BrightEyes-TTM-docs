@@ -18,6 +18,5 @@ In the current application the BrightEyes-TTM provides the duplication of the ce
 
 - The differential inputs firmware,  designed for the I/O 7x7SPAD-to-FMC adapter board, the central channel (PX24 on SPAD-49ch) is duplicated on the J9 on the adapter board.
 
-CH11 on J5 input connector board is internally duplicated and sampled with a 400MHz clock and returned as output on pin J17. This feature allow to monitor CH11 activity and content while it is still connected and used into the TTM design (Fig.4).
 
 
