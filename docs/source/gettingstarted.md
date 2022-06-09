@@ -30,14 +30,14 @@ The BrightEyes-TTM channel inputs supports either LVTTL or LVDS level input sign
 ## Firmware
 |      |     |
 |------|-----|
-|[Cypress FX3™ SuperSpeed Explorer Kit](USB3.md)| firmware external  | |
+|[Cypress FX3™ SuperSpeed Explorer Kit](USB3.md)| firmware external  |
 |[BrightEyes-TTM](firmware.md) | firmware custom and open-source  |
 
 ## Software
 ### Data Acquisition
-|      |     |     |
-|------|-----|-----|
-| [DataReceiver](software.md#dataReceiver) | | Linux / Windows |
+|      |     |
+|------|-----|
+| [DataReceiver](software.md#dataReceiver) | Linux / Windows |
 
 ### Data Analysis libraries
 In order to read the raw data from the BrightEyes-TTM acquisition `libttp` is required. Moreover to run correctly the BrightEyes-TTM Notebook examples `spadffs` is needed too.
@@ -48,7 +48,7 @@ pip install libttp spadffs
 
 ### Data Processing (Python Notebooks)
 The data processing example are given here:
-|      |     |     |
-|------|-----|-----|
-| [BrightEyes-TTM dataprocessing](dataprocessing.md) | | Python Notebook examples |
+|      |     |
+|------|-----|
+| [BrightEyes-TTM dataprocessing](dataprocessing.md) | Python Notebook examples |
 
