@@ -5,7 +5,7 @@ I/O multichannel (8x) digital buffer to match the impedance of external referenc
 - *Brand:* *custom-built*
 - *Product code:* *custom-built*
 - **How-to produce it:** {doc}`**READ THE NOTES** <boards/8xDigiBuffer>`
-- **Gerber File:** [8xDigiBuffer_Gerber.zip](boards/8xDigiBuffer/files/DigiBuff8_rev2_GerberFiles.zip)
+- **Gerber File:** [8xDigiBuffer_Gerber.zip](https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/8xDigiBuffer/files/DigiBuff8_rev2_GerberFiles.zip)
 
 The 8xDigiBuffer is a custom built circuital component used as signal level (voltage) and impedance matching device. It is used as front-end logic to adapt and buffer external signals to the LVTTL 50 Ohm requirements of the  Xilinx® KC705 Evaluation kit.
 
@@ -30,11 +30,11 @@ At the links in the table below all the needed information for building a 8xDigi
    * - Name
      - Where to get
    * - 8xDigiBuffer gerber soucer files
-     - `DigiBuff8_rev2_GerberFiles.zip </boards/8xDigiBuffer/files/DigiBuff8_rev2_GerberFiles.zip>`_
+     - `DigiBuff8_rev2_GerberFiles.zip <https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/8xDigiBuffer/files/DigiBuff8_rev2_GerberFiles.zip>`_
    * - 8xDigiBuffer build of materials
-     - `BOM_DIGIBUFF8_rev2.xlsx </boards/8xDigiBuffer/doc/BOM_DIGIBUFF8_rev2.xlsx>`_
+     - `BOM_DIGIBUFF8_rev2.xlsx <https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/8xDigiBuffer/doc/BOM_DIGIBUFF8_rev2.xlsx>`_
    * - 8xDigibuffer circuit schematic
-     - `DigiBuff8_rev2_sch.pdf </boards/8xDigiBuffer/doc/DigiBuff8_rev2_sch.pdf>`_
+     - `DigiBuff8_rev2_sch.pdf <https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/8xDigiBuffer/doc/DigiBuff8_rev2_sch.pdf>`_
    * - 8xDigibuffer pcb views
-     - `DigiBuff8_rev2_pcb.pdf </boards/8xDigiBuffer/doc/DigiBuff8_rev2_pcb.pdf>`_
+     - `DigiBuff8_rev2_pcb.pdf <https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/8xDigiBuffer/doc/DigiBuff8_rev2_pcb.pdf>`_
 ```
