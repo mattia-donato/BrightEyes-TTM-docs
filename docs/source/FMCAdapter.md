@@ -7,7 +7,7 @@ The USB-FMC needs two component the interconnection board and the USB-FX3 chip.
 :::{figure} img/USBchip_adapter_assembly.PNG
 :align: center
 :alt: I/Os SMA-FMC connector Board
-:width: 50%
+:width: 100%
 
 Fig.1 - Assembly for CYUSB3ACC-005 FMC Interconnect Board and the EZ-USB® FX3™ SuperSpeed Explorer Kit
 :::
