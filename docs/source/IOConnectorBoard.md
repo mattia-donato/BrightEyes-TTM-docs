@@ -1,4 +1,4 @@
-# I/Os connector cards
+# I/Os adapters & Pinout
 
 ```{toctree}
 pinout5x5
