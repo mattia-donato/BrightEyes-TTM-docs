@@ -13,7 +13,6 @@ assembly
 hardware
 software
 
-architecture
 
 credits
 ```
