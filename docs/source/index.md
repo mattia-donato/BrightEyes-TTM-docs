@@ -8,11 +8,11 @@ sd_hide_title: true
 BrightEyes
 
 gettingstarted
-assembly
 
 hardware
 software
 
+architecture
 
 credits
 ```
