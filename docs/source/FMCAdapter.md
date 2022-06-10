@@ -27,6 +27,8 @@ Follow the [Quick start guide](https://www.cypress.com/file/133861/download) or 
 USB3
 ```
 
+---
+
 ## USB data chip
 
 EZ-USB® FX3™ SuperSpeed Explorer Kit
