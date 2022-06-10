@@ -36,7 +36,7 @@ In this repository the following files are available for builing a SMA-FMC conne
    * - Connector card gerber files
      - `Gerber_SMA_FMC.zip <https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/IOconnectorBoard/Gerber_SMA_FMC.zip>`_
    * - Connector card circuit schematic
-     - `SMA_FMC-schematic.pdf <https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/IOconnectorBoard/IOconnectorBoard/SMA_FMC-schematic.pdf>`_
+     - `SMA_FMC-schematic.pdf <https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/IOconnectorBoard/SMA_FMC-schematic.pdf>`_
    * - Connector card pcb
      - `SMA_FMC-pcb.pdf <https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/IOconnectorBoard/SMA_FMC-pcb.pdf>`_
    * - Connector card 3D model
