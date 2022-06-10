@@ -20,11 +20,14 @@ Fig.1 - Xilinx FPGA Board
 
 Follow the links below for downloading the complete project solution:
 
-###
-- BrightEyes-TTM [main board](https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/FPGAboard) - the Xilinx FPGA evaluation board used in the BrightEyes-TTM project
-- BrightEyes-TTM FPGA [VHDL/Verilog code](https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/FPGA/ttm/hdl) - VHDL and Verilog open-source codes for future TTM developments and modifications
-- [Vivado Design Suite](https://www.xilinx.com/products/design-tools/vivado.html) - required Xilinx FPGA Programming software
-  environment for handling the BrightEyes-TTM project
-- [BrightEyes-TTM FPGA firmware](https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/FPGA/ttm/project/ttm.runs/impl_1/top.bit) - .bit firmware ready to be downloaded into the evaluation FPGA board
+The BrightEyes-TTM project has been designed, synthesed and implementated with the software Xilinx Vivado 2017.4 more info [Xilinx Vivado Design Suite](https://www.xilinx.com/products/design-tools/vivado.html)
 
-See the {doc}`BrightEyes-TTM FPGA architecture architecture.rst`
+The current firmware (.bit files) ready to flash the Xilinx KC705 Kintex-7 Evaluation board are available here:
+- [BrightEyes-TTM FPGA firmware](https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/FPGA/ttm/project/ttm.runs/impl_1/top.bit): 21 channels, single-ended inputs, old protocol (v.1.0)
+- [BrightEyes-TTM FPGA firmware](https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/FPGA/ttm/project/ttm.runs/impl_1/top_singleneded.bit): 25 channels, single-ended inputs, new protocol (v.2.0)
+- [BrightEyes-TTM FPGA firmware](https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/FPGA/ttm/project/ttm.runs/impl_1/top_diff.bit): 25 channels, differential inputs, new protocol (v.2.0)
+
+The source code VHDL/Verilog is available on the GitHub repository [BrightEyes-TTM FPGA VHDL/Verilog code](https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/FPGA/ttm/hdl)
+
+See the [BrightEyes-TTM FPGA architecture](architecture.md)
+
