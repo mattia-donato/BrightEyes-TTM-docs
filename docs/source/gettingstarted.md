@@ -49,10 +49,10 @@ pip install libttp
 Moreover to run correctly the BrightEyes-TTM Notebook examples `spadffs` is needed too.
 
 ```
-pip install spadffs
+pip install git+https://github.com/VicidominiLab/libspadffs.git@ttm
+(note you need to install git before)
 ```
 
- 
 
 ### Data Processing (Python Notebooks)
 The data processing example are given here:
