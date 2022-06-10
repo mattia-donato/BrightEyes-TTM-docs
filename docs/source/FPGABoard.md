@@ -20,10 +20,11 @@ Fig.1 - Xilinx FPGA Board
 
 Follow the links below for downloading the complete project solution:
 
-- [BrightEyes-TTM main board](/boards/FPGAboard) - the Xilinx FPGA evaluation board used in the BrightEyes-TTM project
-- [BrightEyes-TTM FPGA firmware](/FPGA/ttm/project/ttm.runs/impl_1/top.bit) - .bit firmware ready to be downloaded into the evaluation FPGA board
-- [BrightEyes-TTM FPGA VHDL/Verilog code](/FPGA/ttm/hdl) - VHDL and Verilog open-source codes for future TTM developments and modifications
+###
+- BrightEyes-TTM [main board](https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/FPGAboard) - the Xilinx FPGA evaluation board used in the BrightEyes-TTM project
+- BrightEyes-TTM FPGA [VHDL/Verilog code](https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/FPGA/ttm/hdl) - VHDL and Verilog open-source codes for future TTM developments and modifications
 - [Vivado Design Suite](https://www.xilinx.com/products/design-tools/vivado.html) - required Xilinx FPGA Programming software
   environment for handling the BrightEyes-TTM project
+- [BrightEyes-TTM FPGA firmware](https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/FPGA/ttm/project/ttm.runs/impl_1/top.bit) - .bit firmware ready to be downloaded into the evaluation FPGA board
 
 See the {doc}`BrightEyes-TTM FPGA architecture architecture.rst`
