@@ -3,7 +3,7 @@
 There are two version of the BrightEyes-TTM data receiver. The "Old Protocol" version for the firmware (v1.0)  and the "New Protocol" version for the firmware (v2.0). The data receiver the libraries _libusb_ and save the stream of data from USB 3.0 to a raw file. We suggest to use the Linux version but it is available also a Windows porting. 
 
 
-## DataReceiver Linux (OLD)
+## DataReceiver Linux
 
 
 ### Requirements
@@ -15,10 +15,12 @@ sudo apt-get install libusb-dev libusb-1.0-0-dev
 ### How to compile?
 
 ```
+(old Protocol - Bright-TTM firmware v1.0)
 gcc "dataReceiver.c" -O2 -g `pkg-config libusb-1.0 --libs --cflags`  -lpthread -o "dataReceiver"
 ```
 
 ```
+(new Protocol - Bright-TTM firmware >=v2.0)
 gcc "dataReceiver-newProt.c" -O2 -g `pkg-config libusb-1.0 --libs --cflags`  -lpthread -o "dataReceiver-newProt"
 ```
 
@@ -28,7 +30,7 @@ gcc "dataReceiver-newProt.c" -O2 -g `pkg-config libusb-1.0 --libs --cflags`  -lp
 :::
 
 
-
+---
 
 ## DataReceiver Windows (OLD)
 
