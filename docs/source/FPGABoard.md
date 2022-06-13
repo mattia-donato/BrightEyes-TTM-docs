@@ -1,6 +1,6 @@
 # BrightEyes-TTM Mainboard
 
-BrightEyes-TTM is based on a commercially available and low cost [field-programmable-gate-array (FPGA)](https://en.wikipedia.org/wiki/Field-programmable_gate_array) evaluation Board (Fig.1), equipped with a state-of-the-art FPGA (the [Kintex 7](https://www.xilinx.com/products/silicon-devices/fpga/kintex-7.html), XC7K325T-2FFG900C) and a series of [I/Os connectors](docs/img/TTM_Assembly.PNG) granting an easy interface of the board with the laser scanning microscope controller, the detector(s) and the personal computer.
+BrightEyes-TTM is based on a commercially available and low cost [field-programmable-gate-array (FPGA)](https://en.wikipedia.org/wiki/Field-programmable_gate_array) evaluation Board (Fig.1), equipped with a state-of-the-art FPGA (the [Kintex 7](https://www.xilinx.com/products/silicon-devices/fpga/kintex-7.html), XC7K325T-2FFG900C) and a series of [I/Os connectors](docs/img/TTM_Assembled.jpg) granting an easy interface of the board with the laser scanning microscope controller, the detector(s) and the personal computer.
 **Kintex-7 evaluation board**
 
 Xilinx® FPGA Kintex-7 KC705 Evaluation Board
