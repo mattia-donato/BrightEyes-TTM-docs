@@ -34,7 +34,7 @@ If the final goal of the measurement is to retrieve information from the correla
 
 ## ISM & FLIM-Phasor analysis
 
-This Jupyter notebook example can be used for implementing the pixel reassignment algorithm for image scanning microscopy (ISM) applications and for performing FLIM-phasor analysis with time-resolved data. After having used the [image reconstruction Jupyter Notebook example](/dataProcessing/pynotebook/Image_reconstruction.ipynb) for reconstructing a 4D dataset (x,y,t,ch) it is possible to feed this dataset into the [ISM & FLIM-phasor notebook](https://github.com/VicidominiLab/BrightEyes-TTM/blob/main/dataProcessing/pynotebook/ISM_Decay_Reconstruction_BrightEyes-TTM_v1_opensource.ipynb). NB - time alignment of the fluorescence lifetime decays is required, accross the different available channels (ch), before feeding a 4D dataset into this notebook.
+This Jupyter notebook example can be used for implementing the pixel reassignment algorithm for image scanning microscopy (ISM) applications and for performing FLIM-phasor analysis with time-resolved data. After having used the [image reconstruction Jupyter Notebook example](https://github.com/VicidominiLab/BrightEyes-TTM/main/v1.0/dataProcessing/pynotebook/Image_reconstruction.ipynb) for reconstructing a 4D dataset (x,y,t,ch) it is possible to feed this dataset into the [ISM & FLIM-phasor notebook](https://github.com/VicidominiLab/BrightEyes-TTM/blob/main/dataProcessing/pynotebook/ISM_Decay_Reconstruction_BrightEyes-TTM_v1_opensource.ipynb). NB - time alignment of the fluorescence lifetime decays is required, accross the different available channels (ch), before feeding a 4D dataset into this notebook.
 
 ## Data Source
 
