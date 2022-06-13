@@ -7,7 +7,10 @@ Follow the links below for downloading and installing the required librares.
 - TTM library for reconstructing and calibrating time-tagging data streamet by the BrightEyes-TTM to the host-PC - [lipttp](https://github.com/VicidominiLab/BrightEyes-TTM/blob/main/dataProcessing/libs/libttp)
 - FFS library for reconstructing the correlation curve and implementing FCS - [spad_ffs](https://github.com/VicidominiLab/BrightEyes-TTM/blob/main/dataProcessing/libs/spad_ffs)
 
-## Notebooks
+## Notebooks (new protocol)
+It will be soon available.
+
+## Notebooks (old protocol - firmware v1.0)
 Data is acquired in a RAW format from the TTM using the same data protocol for all the possible and different applications. Then depending on the type of information/application needed is unpacked, calibrated and reconstructed (Fig.1).
 
 :::{figure} img/DataProcessing.PNG
@@ -35,28 +38,12 @@ If the final goal of the measurement is to retrieve information from the correla
 
 This Jupyter notebook example can be used for implementing the pixel reassignment algorithm for image scanning microscopy (ISM) applications and for performing FLIM-phasor analysis with time-resolved data. After having used the [image reconstruction Jupyter Notebook example](https://github.com/VicidominiLab/BrightEyes-TTM/main/v1.0/dataProcessing/pynotebook/Image_reconstruction.ipynb) for reconstructing a 4D dataset (x,y,t,ch) it is possible to feed this dataset into the [ISM & FLIM-phasor notebook](https://github.com/VicidominiLab/BrightEyes-TTM/blob/main/dataProcessing/pynotebook/ISM_Decay_Reconstruction_BrightEyes-TTM_v1_opensource.ipynb). NB - time alignment of the fluorescence lifetime decays is required, accross the different available channels (ch), before feeding a 4D dataset into this notebook.
 
-### Data Source
+### Data Source (Zenodo)
 
 The data used in these examples can be downloaded from the link:
 
-```{image} https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg
-:alt: https://doi.org/10.5281/zenodo.4912656
-:target: https://doi.org/10.5281/zenodo.4912656
-```
-
-```{eval-rst}
-.. list-table::
-   :header-rows: 1
-
-   * - Name
-     - Associated example dataset on Zenodo
-   * - TSCPC Histogram
-     - Fluorescence_Spectroscopy_Dataset_40MHz
-
-   * - Imaging
-     - FLIM_512x512pixels_dwelltime250us_Dataset_40MHz
-
-   * - FCS
-     - FCS_scanfcs_Dataset_40MHz
-
-```
+| Name | Associated example dataset on Zenodo |
+| ------ | ------ |
+| TSCPC Histogram | **Fluorescence_Spectroscopy_Dataset_40MHz** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) |
+| Imaging | **FLIM_512x512pixels_dwelltime250us_Dataset_40MHz** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) |
+| FCS | **FCS_scanfcs_Dataset_40MHz** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) |
