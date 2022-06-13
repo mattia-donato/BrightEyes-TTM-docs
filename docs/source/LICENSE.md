@@ -42,7 +42,7 @@ the libraries for the analysis of confocal laser-scanning microscopy based fluor
 fluctuation spectroscopy (FFS) data analysis is under a BSD-3-Clause. The original version
 is <https://github.com/VicidominiLab/spad-ffs>
 
-The a copy of the text of the above mentioned licenses can be found in the folder [license/](license/).
+The a copy of the text of the above mentioned licenses can be found in the folder [license/](https://github.com/VicidominiLab/BrightEyes-TTM/blob/main/license/).
 
 # Copyright
 
