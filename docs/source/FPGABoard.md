@@ -20,10 +20,11 @@ The source code VHDL/Verilog is available on the GitHub repository [BrightEyes-T
 :width: 50%
 
 Fig.1 - Xilinx FPGA Board
-:::
+:::{ref}`` 
 
 ## BrightEyes-TTM Firmware
-{ref}`ttmfirmware` The current firmware (.bit files) ready to flash the Xilinx KC705 Kintex-7 Evaluation board are available here:
+.. _ttmfirmware:
+The current firmware (.bit files) ready to flash the Xilinx KC705 Kintex-7 Evaluation board are available here:
 - [BrightEyes-TTM FPGA firmware](https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/FPGA/ttm/project/ttm.runs/impl_1/top_singleneded.bit): 25 channels, single-ended inputs, new protocol (v.2.0)
 - [BrightEyes-TTM FPGA firmware](https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/FPGA/ttm/project/ttm.runs/impl_1/top_diff.bit): 25 channels, differential inputs, new protocol (v.2.0)
 
