@@ -36,7 +36,7 @@ gcc "dataReceiver-newProt.c" -O2 -g `pkg-config libusb-1.0 --libs --cflags`  -lp
 
 
 
-## DataReceiver Windows (OLD)
+## DataReceiver Windows (only v1.0)
 
 
 The DataReceiverW is the porting of the DataReceiver for Linux to Windows. It based on the libusb-win32 driver and it is in an experimental phase.
