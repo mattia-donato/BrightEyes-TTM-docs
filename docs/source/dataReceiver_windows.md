@@ -60,7 +60,7 @@ Now the libusb-win32 drivers should be correctly installed.
 
 :::{figure} img/dataReceiver/datawriterW.png
 :align: center
-:width: 50
+:width: 100
 :::
 
 
