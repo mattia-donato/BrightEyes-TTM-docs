@@ -17,12 +17,12 @@ The installation of the libusb-win32 drivers can be done with the tool Zadig. It
 
 :::{figure} img/dataReceiver/zadig_1.png
 :align: center
-:width: 50%
+:width: 100%
 :::
 
 :::{figure} img/dataReceiver/zadig_2.png
 :align: center
-:width: 50%
+:width: 100%
 :::
 
 
@@ -30,7 +30,7 @@ Select in the menu **Options --> List All Devices**
 
 :::{figure} img/dataReceiver/zadig_3.png
 :align: center
-:width: 50%
+:width: 100%
 :::
 
 
@@ -38,7 +38,7 @@ Select in the list of devices **FX3**
 
 :::{figure} img/dataReceiver/zadig_4.png
 :align: center
-:width: 50%
+:width: 100%
 :::
 
 
@@ -46,12 +46,12 @@ Select in the scrollbox **libusb-win32** and click on **"Replace Driver"** and w
 
 :::{figure} img/dataReceiver/zadig_5.png
 :align: center
-:width: 50%
+:width: 100%
 :::
 
 :::{figure} img/dataReceiver/zadig_6.png
 :align: center
-:width: 50%
+:width: 100%
 :::
 
 Now the libusb-win32 drivers should be correctly installed.
