@@ -11,6 +11,7 @@ gettingstarted
 
 hardware
 datareceiver
+dataprocessing
 notebook
 
 architecture
