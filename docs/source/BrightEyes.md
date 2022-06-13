@@ -10,9 +10,19 @@ The BrightEyes-TTM project [\[1\]](https://doi.org/10.1101/2021.10.11.463950) bo
 Fig. 1 - The BrightEyes Time-Tagging Module
 :::
 
+```{note}
 **In this documentation you can find everything you need to build and further modify the BrightEyes-TTM in your lab.**
 
-**The source code, the open hardware and libraries and example are available in GitHub at the following address: [github.com/VicidominiLab/BrightEyes-TTM](https://github.com/VicidominiLab/BrightEyes-TTM)**
+**The source code, the open hardware and libraries and example are available in GitHub at the following address:
+[github.com/VicidominiLab/BrightEyes-TTM version 1.0]([https://github.com/VicidominiLab/BrightEyes-TTM](https://github.com/VicidominiLab/BrightEyes-TTM/tree/v2.0))
+```
+
+```{note}
+There are two version of BrightEyes-TTM. The article on arXiv is referred to the version v1.0, the article published is refered to the version v2.0.
+
+The old version (v1.0) is available in the branch on GitHub
+[github.com/VicidominiLab/BrightEyes-TTM version 1.0]([https://github.com/VicidominiLab/BrightEyes-TTM](https://github.com/VicidominiLab/BrightEyes-TTM/tree/v1.0))**
+```
 
 The BrightEyes-TTM mainly consists in a data-acquisition (DAQ) card able to implement the so-called photon time-tagging acquisition mode (Fig. 2).
 
