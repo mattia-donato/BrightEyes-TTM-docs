@@ -3,8 +3,21 @@ FMC daugther card to interface the BrightEyes-TTM with external photon-signals f
 
 - *Brand:* *custom-built*
 - *Product code:* *custom-built*
-- **Description:** {doc}`**READ THE NOTES** <IOConnectorBoard>`
 - **Gerber File:** Gerber_7x7SPAD_FMC.zip \<boards/IOconnectorBoard/Gerber_7x7SPAD_FMC.zip>
+
+:::{figure} img/3D View F.PNG
+:align: center
+:width: 50%
+
+Fig.1 - I/Os 7x7SPAD-to-FMC connector Board (Front)
+:::
+
+:::{figure} img/3D View B.PNG
+:align: center
+:width: 50%
+
+Fig.1 - I/Os 7x7SPAD-to-FMC connector Board (Back)
+:::
 
 ### Pinout I/Os 7x7SPAD-to-FMC board
 
