@@ -15,10 +15,10 @@ In order to be able to reconstruct and process the data streamed by the BrightEy
 
 - Data acquisition software (Linux)
   The data receiver is a CLI program for reading the data from the TTM through the USB 3.0 and write them to the PC memory. It is program written in C/C++ developed for Linux OS.
-  [dataReceiver (Linux)](dataReceiver/linux)
+  [dataReceiver (Linux)](https://github.com/VicidominiLab/BrightEyes-TTM/tree/v1.0/dataReceiver/dataReceiver/linux)
 - Data acquisition software (Windows)
   Here a version of the data receiver ported to Windows OS. Please note that the Linux version is our reference version for measurments and tests.
-  [dataReceiverW (Windows)](dataReceiver/windows)
+  [dataReceiverW (Windows)](https://github.com/VicidominiLab/BrightEyes-TTM/tree/v1.0/dataReceiver/dataReceiver/windows)
 
 # Examples Data Analysis Notebook
 
