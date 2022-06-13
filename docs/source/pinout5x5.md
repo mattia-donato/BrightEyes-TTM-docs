@@ -3,7 +3,7 @@ FMC daugther card to interface the BrightEyes-TTM with external photon-signals
 
 - *Brand:* *custom-built*
 - *Product code:* *custom-built*
-- **Gerber File:** [Gerber_SMA_FMC.zip](https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/IOconnectorBoard/Gerber_SMA_FMC.zip)
+- **Gerber File:** [Gerber_SMA_FMC.zip](https://github.com/VicidominiLab/BrightEyes-TTM/raw/v2.0/boards/IOconnectorBoard/Gerber_SMA_FMC.zip)
 
 The BrightEyes-TTM interfaces with the photon-signals thanks to a custom-built I/0s FMC daughter card (Fig.1) connected via the FPGA mezzanine connector (FMC-HPC). In principle, if needed, also the I/0s FMC daughter card can be modfied, further developed and yet manufactured to adapt the BrightEyes-TTM to any type of LSM signals.
 
@@ -34,13 +34,13 @@ In this repository the following files are available for builing a SMA-FMC conne
    * - Name
      - Where to get
    * - Connector card gerber files
-     - `Gerber_SMA_FMC.zip <https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/IOconnectorBoard/Gerber_SMA_FMC.zip>`_
+     - `Gerber_SMA_FMC.zip <https://github.com/VicidominiLab/BrightEyes-TTM/raw/v2.0/boards/IOconnectorBoard/Gerber_SMA_FMC.zip>`_
    * - Connector card circuit schematic
-     - `SMA_FMC-schematic.pdf <https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/IOconnectorBoard/SMA_FMC-schematic.pdf>`_
+     - `SMA_FMC-schematic.pdf <https://github.com/VicidominiLab/BrightEyes-TTM/raw/v2.0/boards/IOconnectorBoard/SMA_FMC-schematic.pdf>`_
    * - Connector card pcb
-     - `SMA_FMC-pcb.pdf <https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/IOconnectorBoard/SMA_FMC-pcb.pdf>`_
+     - `SMA_FMC-pcb.pdf <https://github.com/VicidominiLab/BrightEyes-TTM/raw/v2.0/boards/IOconnectorBoard/SMA_FMC-pcb.pdf>`_
    * - Connector card 3D model
-     - `SMA_FMC-3D.pdf <https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/IOconnectorBoard/SMA_FMC-3D.pdf>`_
+     - `SMA_FMC-3D.pdf <https://github.com/VicidominiLab/BrightEyes-TTM/raw/v2.0/boards/IOconnectorBoard/SMA_FMC-3D.pdf>`_
 
 ```
 

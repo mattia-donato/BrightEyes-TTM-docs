@@ -29,11 +29,11 @@ At the links in the table below all the needed information for building a 8xDigi
    * - Name
      - Where to get
    * - 8xDigiBuffer gerber soucer files
-     - `DigiBuff8_rev2_GerberFiles.zip <https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/8xDigiBuffer/files/DigiBuff8_rev2_GerberFiles.zip>`_
+     - `DigiBuff8_rev2_GerberFiles.zip <https://github.com/VicidominiLab/BrightEyes-TTM/raw/v2.0/boards/8xDigiBuffer/files/DigiBuff8_rev2_GerberFiles.zip>`_
    * - 8xDigiBuffer build of materials
-     - `BOM_DIGIBUFF8_rev2.xlsx <https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/8xDigiBuffer/doc/BOM_DIGIBUFF8_rev2.xlsx>`_
+     - `BOM_DIGIBUFF8_rev2.xlsx <https://github.com/VicidominiLab/BrightEyes-TTM/raw/v2.0/boards/8xDigiBuffer/doc/BOM_DIGIBUFF8_rev2.xlsx>`_
    * - 8xDigibuffer circuit schematic
-     - `DigiBuff8_rev2_sch.pdf <https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/8xDigiBuffer/doc/DigiBuff8_rev2_sch.pdf>`_
+     - `DigiBuff8_rev2_sch.pdf <https://github.com/VicidominiLab/BrightEyes-TTM/raw/v2.0/boards/8xDigiBuffer/doc/DigiBuff8_rev2_sch.pdf>`_
    * - 8xDigibuffer pcb views
-     - `DigiBuff8_rev2_pcb.pdf <https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/8xDigiBuffer/doc/DigiBuff8_rev2_pcb.pdf>`_
+     - `DigiBuff8_rev2_pcb.pdf <https://github.com/VicidominiLab/BrightEyes-TTM/raw/v2.0/boards/8xDigiBuffer/doc/DigiBuff8_rev2_pcb.pdf>`_
 ```
