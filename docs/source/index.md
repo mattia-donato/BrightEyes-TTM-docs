@@ -10,7 +10,8 @@ BrightEyes
 gettingstarted
 
 hardware
-software
+datareceiver
+notebook
 
 architecture
 
