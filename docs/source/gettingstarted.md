@@ -31,7 +31,7 @@ The BrightEyes-TTM channel inputs supports either LVTTL or LVDS level input sign
 |      |     |
 |------|-----|
 |[Cypress FX3™ SuperSpeed Explorer Kit](USB3.md)| firmware external  |
-|[BrightEyes-TTM](FPGABoard.md#ttmfirmware) | firmware custom and open-source  |
+|[BrightEyes-TTM](FPGABoard.md) | firmware custom and open-source  |
 
 ## Software
 ### Data Acquisition
