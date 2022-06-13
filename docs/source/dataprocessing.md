@@ -7,7 +7,7 @@ Follow the links below for downloading and installing the required librares.
 - TTM library for reconstructing and calibrating time-tagging data streamet by the BrightEyes-TTM to the host-PC - [lipttp](https://github.com/VicidominiLab/BrightEyes-TTM/blob/v2.0/dataProcessing/libs/libttp)
 - FFS library for reconstructing the correlation curve and implementing FCS - [spad_ffs](https://github.com/VicidominiLab/BrightEyes-TTM/blob/v2.0/dataProcessing/libs/spad_ffs)
 
-## Notebooks (new protocol)
+## Notebooks (new protocol - firmware v2.0)
 It will be soon available.
 
 ## Notebooks (old protocol - firmware v1.0)
