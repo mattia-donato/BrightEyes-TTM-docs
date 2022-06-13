@@ -18,4 +18,4 @@ VHDL source code TTM architecture components:
 - [Data interface module](/FPGA/ttm/hdl/to_fxr_workaround.v) - Module component that allows the data to be transfered from the FPGA to the  EZ-USB® FX3™ SuperSpeed Explorer Kit.
 - [START,STOP,REF signals map](/FPGA/ttm/xdc/top_fpga.xdc) - .xdc file for the pin map to match the different BrightEyes-TTM inputs with the FPGA pins.
 
-The BrightEyes-TTM architecture (Fig.2) combines N+1 (N = 21 photon channels in this implementation) tapped delay lines (TDLs) and a coarse counter running at 240 MHz to obtain N fine TDCs with tens of picoseconds precision (for the start-stop time of each photon channel), and M coarse TDCs with a nanosecond precision (M = 3 reference channels in this implementation).
+The BrightEyes-TTM architecture (Fig.2) combines N+1 (N = 25 photon channels in this implementation) tapped delay lines (TDLs) and a coarse counter running at 240 MHz to obtain N fine TDCs with tens of picoseconds precision (for the start-stop time of each photon channel), and M coarse TDCs with a nanosecond precision (M = 3 reference channels in this implementation).
