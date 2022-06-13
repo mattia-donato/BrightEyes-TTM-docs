@@ -20,7 +20,7 @@ The source code VHDL/Verilog is available on the GitHub repository [BrightEyes-T
 :width: 50%
 
 Fig.1 - Xilinx FPGA Board
-:::{ref}`` 
+:::
 
 ## BrightEyes-TTM Firmware
 {ref}`ttmfirmware`
