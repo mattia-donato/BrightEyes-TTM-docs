@@ -24,13 +24,17 @@ gcc "dataReceiver.c" -O2 -g `pkg-config libusb-1.0 --libs --cflags`  -lpthread -
 gcc "dataReceiver-newProt.c" -O2 -g `pkg-config libusb-1.0 --libs --cflags`  -lpthread -o "dataReceiver-newProt"
 ```
 
+### How to run?
+
 :::{figure} img/dataReceiver/dataReceiverNew.png
 :align: center
 :width: 100%
 :::
 
 
----
+
+
+
 
 ## DataReceiver Windows (OLD)
 
