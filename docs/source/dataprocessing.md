@@ -1,4 +1,4 @@
-# Python libraries for data processing
+# Data processing (python)
 
 In order to be able to reconstruct and process the data streamed by the BrightEyes-TTM few python libraries have to be previously installed in the host-processing computer.
 
