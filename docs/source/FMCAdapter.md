@@ -31,7 +31,7 @@ EZ-USB® FX3™ SuperSpeed Explorer Kit
 - *Link to the product:* <https://www.infineon.com/cms/en/design-support/software/code-examples/usb-controllers-code-examples/usb-super-speed-code-examples/>
 
 
-The BrightEyes-TTM design transmits the data to the PC via USB 3.0, a [FX3-based board](https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/USB3.0/mainboard) (Fig.1 - Cypress SuperSpeed Explorer kit board, CYUSB3KIT) connected through an [adapter card (CYUSB3ACC)](/boards/USB3.0/FMCadapter) to LPC-FMC connector of the Kintex-7 evaluation board. In order to use the FX3 chip, a dedicated module in the FPGA was developed. It has a simple interface (essentially FIFO with a data-valid flag) for the data transmission and it manages the FX3 control signals and the data-bus. The module was designed to work with the FX3 programmed with the SF_streamIN firmware part of the [AN65974](https://www.cypress.com/documentation/application-notes/an65974-designing-ez-usb-fx3-slave-fifo-interface) example provided by Cypress.
+The BrightEyes-TTM design transmits the data to the PC via USB 3.0, a [FX3-based board](https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/USB3.0/mainboard) (Fig.1 - Cypress SuperSpeed Explorer kit board, CYUSB3KIT) connected through an [adapter card (CYUSB3ACC)](/boards/USB3.0/FMCadapter) to LPC-FMC connector of the Kintex-7 evaluation board. In order to use the FX3 chip, a dedicated module in the FPGA was developed. It has a simple interface (essentially FIFO with a data-valid flag) for the data transmission and it manages the FX3 control signals and the data-bus. The module was designed to work with the FX3 programmed with the SF_streamIN firmware part of the [AN65974](https://www.cypress.com/?rID=51581) example provided by Cypress.
 
 The [Cypress SuperSpeed Explorer kit Board](https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/boards/USB3.0/mainboard) and its [FMC adapter connector card](/boards/USB3.0/FMCadapter) for the FPGA board are available at these links:
 
@@ -41,7 +41,7 @@ The [Cypress SuperSpeed Explorer kit Board](https://github.com/VicidominiLab/Bri
 
 #### Firmware
 
-The Cypress SuperSpeed Explorer kit main board has to be programmed, to work with TTM FPGA firmware, with the SF_streamIN, which is part of the Cypress Application Note "AN65974 - Designing with the EZ-USB™ FX3". The file AN65974.zip which contains the **firmware SF_streamIN.img can be downloaded from this** [link](https://www.infineon.com/cms/en/design-support/software/code-examples/usb-controllers-code-examples/usb-super-speed-code-examples/). This allow for the acquired data to be trasmitted to a host-PC.
+The Cypress SuperSpeed Explorer kit main board has to be programmed, to work with TTM FPGA firmware, with the SF_streamIN, which is part of the Cypress Application Note "AN65974 - Designing with the EZ-USB™ FX3". The file AN65974.zip which contains the **firmware SF_streamIN.img can be downloaded from this** [link](https://www.cypress.com/?rID=51581). This allow for the acquired data to be trasmitted to a host-PC.
 
 :::{figure} img/FX3_Cypress.PNG
 :align: center
