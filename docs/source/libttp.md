@@ -41,9 +41,23 @@ pip install multipletau
 
 # How to install libttp and spad_ffs?
 
-Link to [libttp](libttp/README.md).
+To install libttp:
 
-Link to [spad_ffs](spad_ffs/README.md).
+```
+pip install libttp 
+```
+Link to the [repository](https://github.com/VicidominiLab/libttp).
+
+
+
+To install libspadffs:
+
+```
+pip install git+https://github.com/VicidominiLab/libspadffs.git@ttm
+(note you need to install "git" before run the last command,
+if you use a Conda enviroment use "conda install git")
+```
+Link to the [repository](https://github.com/VicidominiLab/libspadffs).
 
 # How to install the MIPLIB library?
 
