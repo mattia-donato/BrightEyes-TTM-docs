@@ -1,5 +1,4 @@
-# Hardware list
-
+# Hardware
 In the table below you can find the complete list of all the needed hardware components for builing the BrightEyes-TTM.
 
 ```{toctree}
