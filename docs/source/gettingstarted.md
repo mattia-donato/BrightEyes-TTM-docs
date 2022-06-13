@@ -50,7 +50,8 @@ Moreover to run correctly the BrightEyes-TTM Notebook examples `spadffs` is need
 
 ```
 pip install git+https://github.com/VicidominiLab/libspadffs.git@ttm
-(note you need to install git before)
+(note you need to install "git" before run the last command,
+if you use a Conda enviroment use "conda install git")
 ```
 
 
