@@ -11,7 +11,7 @@ Fig. 1 - The BrightEyes Time-Tagging Module
 :::
 
 ```{note}
-**In this documentation you can find everything you need to build and further modify the BrightEyes-TTM in your lab.**
+In this documentation you can find everything you need to build and further modify the BrightEyes-TTM in your lab.**
 
 **The source code, the open hardware and libraries and example are available in GitHub at the following address:
 [github.com/VicidominiLab/BrightEyes-TTM version 1.0]([https://github.com/VicidominiLab/BrightEyes-TTM](https://github.com/VicidominiLab/BrightEyes-TTM/tree/v2.0))
@@ -20,7 +20,7 @@ Fig. 1 - The BrightEyes Time-Tagging Module
 ```{note}
 There are two version of BrightEyes-TTM. The article on arXiv is referred to the version v1.0, the article published is refered to the version v2.0.
 
-The old version (v1.0) is available in the branch on GitHub
+**The old version (v1.0) is available in the branch on GitHub
 [github.com/VicidominiLab/BrightEyes-TTM version 1.0]([https://github.com/VicidominiLab/BrightEyes-TTM](https://github.com/VicidominiLab/BrightEyes-TTM/tree/v1.0))**
 ```
 
