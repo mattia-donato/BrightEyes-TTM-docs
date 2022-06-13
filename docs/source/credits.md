@@ -14,13 +14,13 @@
 
 Molecular Microscopy & Spectroscopy, Istituto Italiano di Tecnologia
 
-* [Alessandro Rossetta](https://vicidominilab.github.io/team/AR/) [^1][^2][^3][^6]
+* [Alessandro Rossetta](https://vicidominilab.github.io/team/AR/) [^1],[^2],[^3],[^6]
 * [Eli Slenders](https://vicidominilab.github.io/team/ES/) [^6]
 * [Mattia Donato](https://vicidominilab.github.io/team/MD/) [^6]
-* [Sabrina Zappone](https://vicidominilab.github.io/team/SZ/) [^1][^3]
-* [Francesco Fersini](https://vicidominilab.github.io/team/FF/) [^1][^3]
+* [Sabrina Zappone](https://vicidominilab.github.io/team/SZ/) [^1],[^3]
+* [Francesco Fersini](https://vicidominilab.github.io/team/FF/) [^1],[^3]
 * Francesco Diotalevi [^4]
-* Luca Lanzanò [^2][^5]
+* Luca Lanzanò [^2] [^5]
 * [Sami Koho](https://vicidominilab.github.io/team/SVK/) [^1]
 * [Giorgio Tortarolo](https://vicidominilab.github.io/team/GT/) [^1]
 * Marco Crepaldi [^4]
@@ -28,7 +28,7 @@ Molecular Microscopy & Spectroscopy, Istituto Italiano di Tecnologia
 
 and
 
-* [**Giuseppe Vicidomini**](https://vicidominilab.github.io/team/GV/) [^1][^0] [*] 
+* [**Giuseppe Vicidomini**](https://vicidominilab.github.io/team/GV/) [^1],[^0],[*] 
  
 [^0]:Corresponding author 
 [^1]:Molecular Microscopy and Spectroscopy, Istituto Italiano di Tecnologia, Via Enrico Melen 85 Bldg. B, 16152, Genoa, Italy
