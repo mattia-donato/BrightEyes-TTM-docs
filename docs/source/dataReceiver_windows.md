@@ -88,4 +88,4 @@ Now the libusb-win32 drivers should be correctly installed.
 \</div>\`{raw-html-m2r}`<br>`
 \</figure>\</br>
 
-The **dataReceiverW.exe** executable file is in [dataReceiverW/x64/Debug](/dataReceiverW/x64/Debug). It is a command-line interface CLI software, so it is suggested to run into a Command Prompt (cmd.exe). To run correctly the dataReceiverW needs the library **libpthread.dll** and **libusb-1.0.dll**. The software crash if the subfolder data\*\* is it not present in the folder where the dataReceiverW is executed.
+The **dataReceiverW.exe** executable file is in [dataReceiverW/x64/Debug](https://github.com/VicidominiLab/BrightEyes-TTM/blob/main/dataReceiverW/x64/Debug). It is a command-line interface CLI software, so it is suggested to run into a Command Prompt (cmd.exe). To run correctly the dataReceiverW needs the library **libpthread.dll** and **libusb-1.0.dll**. The software crash if the subfolder data\*\* is it not present in the folder where the dataReceiverW is executed.
