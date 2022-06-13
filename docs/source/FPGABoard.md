@@ -28,11 +28,11 @@ Fig.1 - Xilinx FPGA Board
 (ttmfirmware)=
 
 The current firmware (.bit files) ready to flash the Xilinx KC705 Kintex-7 Evaluation board are available here:
-- [BrightEyes-TTM FPGA firmware](https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/FPGA/ttm/project/ttm.runs/impl_1/top_singleneded.bit): 25 channels, single-ended inputs, new protocol (v.2.0)
-- [BrightEyes-TTM FPGA firmware](https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/FPGA/ttm/project/ttm.runs/impl_1/top_diff.bit): 25 channels, differential inputs, new protocol (v.2.0)
+- [BrightEyes-TTM FPGA firmware](https://github.com/VicidominiLab/BrightEyes-TTM/raw/v2.0/FPGA/ttm/project/ttm.runs/impl_1/top_single_ended.bit): 25 channels, single-ended inputs, new protocol (v.2.0)
+- [BrightEyes-TTM FPGA firmware](https://github.com/VicidominiLab/BrightEyes-TTM/raw/v2.0/FPGA/ttm/project/ttm.runs/impl_1/top_diff.bit): 25 channels, differential inputs, new protocol (v.2.0)
 
 
 Legacy firmware:
-- [BrightEyes-TTM FPGA firmware](https://github.com/VicidominiLab/BrightEyes-TTM/raw/main/FPGA/ttm/project/ttm.runs/impl_1/top.bit): 21 channels, single-ended inputs, old protocol (v.1.0)
+- [BrightEyes-TTM FPGA firmware](https://github.com/VicidominiLab/BrightEyes-TTM/raw/v1.0/FPGA/ttm/project/ttm.runs/impl_1/top.bit): 21 channels, single-ended inputs, old protocol (v.1.0)
 
 If you want modify the project or you want know more about the BrightEyes-TTM firmware design see the [BrightEyes-TTM FPGA architecture](architecture.md).
