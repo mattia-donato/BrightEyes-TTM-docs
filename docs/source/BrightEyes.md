@@ -13,7 +13,7 @@ Fig. 1 - The BrightEyes Time-Tagging Module
 ```{note}
 **In this documentation you can find everything you need to build and further modify the BrightEyes-TTM in your lab.**
 ```
-The source code, the open hardware and libraries and example are available in GitHub at the following address:
+**The source code, the open hardware, python libraries and example are available in GitHub at the following address:**
 [github.com/VicidominiLab/BrightEyes-TTM version 2.0](https://github.com/VicidominiLab/BrightEyes-TTM/tree/v2.0)
 
 
