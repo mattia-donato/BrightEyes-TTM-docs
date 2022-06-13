@@ -14,9 +14,47 @@
 
 Molecular Microscopy & Spectroscopy, Istituto Italiano di Tecnologia
 
-[Alessandro Rossetta](https://vicidominilab.github.io/team/AR/), [Eli Slenders](https://vicidominilab.github.io/team/ES/), [Mattia Donato](https://vicidominilab.github.io/team/MD/), [Eleonora Perego](https://vicidominilab.github.io/team/EP/), [Sami Koho](https://vicidominilab.github.io/team/SVK/), [Giorgio Tortarolo](https://vicidominilab.github.io/team/GT/)
+* [Alessandro Rossetta](https://vicidominilab.github.io/team/AR/) [^1][^2][^3][^6]
+* [Eli Slenders](https://vicidominilab.github.io/team/ES/) [^6]
+* [Mattia Donato](https://vicidominilab.github.io/team/MD/) [^6]
+* [Sabrina Zappone](https://vicidominilab.github.io/team/SZ/) [^1][^3]
+* [Francesco Fersini](https://vicidominilab.github.io/team/FF/) [^1][^3]
+* Francesco Diotalevi [^4]
+* Luca Lanzanò [^2][^5]
+* [Sami Koho](https://vicidominilab.github.io/team/SVK/) [^1]
+* [Giorgio Tortarolo](https://vicidominilab.github.io/team/GT/) [^1]
+* Marco Crepaldi [^4]
+* [Eleonora Perego](https://vicidominilab.github.io/team/EP/) [^1]
 
-and [Giuseppe Vicidomini](https://vicidominilab.github.io/team/GV/)
+and
+
+* [**Giuseppe Vicidomini**](https://vicidominilab.github.io/team/GV/) [^1][^0] [*] 
+ 
+[^0]:Corresponding author 
+[^1]:Molecular Microscopy and Spectroscopy, Istituto Italiano di Tecnologia, Via Enrico Melen 85 Bldg. B, 16152, Genoa, Italy
+[^2]:Nanoscopy and NIC@IIT, Istituto Italiano di Tecnologia, Via Enrico Melen 85 Bldg. B, 16152, Genoa, Italy
+[^3]:Dipartimento di Informatiche, Bioingegneria, Robotica e Ingegneria dei Sistemi, University of Genoa, Via All'Opera Pia 13, 16145, Genoa, Italy
+[^4]:Electronic Design Laboratory, Istituto Italiano di Tecnologia, Via Enrico Melen 85 Bldg. B, 16152, Genoa, Italy
+[^5]:Dipartimento di Fisica e Astronomia, Università di Catania, Via S. Sofia 64, 95123, Catania, Italy
+[^6]:These authors contributed equally to this work
+
+## Contributions
+* G.V. conceived the idea and designed the research;
+* G.V. supervised the research;
+* A.R., M.D., with the support from F.D. and M.C., wrote the firmware for the time-tagging module and the data-receiver;
+* M.D., with support from A.R., wrote the operational software;
+* A.R., E.S., M.D., S.K., and G.T. wrote the imaging analysis software;
+* E.S., M.D., and L.L. wrote the FFS analysis software;
+* A.R. and M.D. characterized and validated the TTM module with the test-bench architecture;
+* E.S. and F.F. built the single-photon microscopes;
+* S.Z. prepared the cell samples. E.S. and E.P., with support from A.R., performed the single-photon microscopy experiments;
+* E.P. designed, implemented, and analyzed all the FLFS experiments;
+* A.R., E.S., M.D., E.P., S.K., G.T., and G.V., analyzed the data;
+* A.R., M.D., and G.V. built the GitHub repository;
+* G.V., E.S. and E.P., with support from A.R. and M.D., wrote the manuscript with edits from all authors.
+
+# Acknowledgements
+This research was supported by Fondazione San Paolo, “Observation of bio-molecular processes in live-cell with nanocamera”, No. EPFD0098 (E.S. and G.V.), by the European Research Council, Bright Eyes, No. 818699 (G.T. and G.V.), and by the European Union's Horizon 2020 research and innovation programme under the Marie Sk1odowska-Curie grant agreement no. 890923 (SMSPAD) (E.S.). We thank Prof. Alberto Diaspro and Dr. Paolo Bianchini (Nanoscopy \& NIC@IIT, Istituto Italiano di Tecnologia) for useful discussions; Dr. Michele Oneto (Nikon Imaging Center) and Marco Scotto (Molecular Microscopy and Spectroscopy, Istituto Italiano di Tecnologia) for support on the experiments; Dr. Andrea Barberis and Dr. Enrica Petrini (Synaptic Plasticity of Inhibitory Networks, Istituto Italiano di Tecnologia) for providing the primary hippocampal cells; Alessandro Barcellona (Electronic Design Laboratory, Istituto Italiano di Tecnologia) for design and implementation of the custom-made buffer; Prof. Alberto Tosi, Prof. Federica Villa, Dr. Mauro Buttafava (Politecnico di Milano), Dr. Marco Castello, and Dr. Simonluca Piazza (Istituto Italiano di Tecnologia and Genoa Instruments) for useful initial discussions in the time-to-digital design and for the realization of the single-photon-avalanche-diode detector array.
 
 <https://vicidominilab.github.io/>
 
@@ -27,7 +65,7 @@ and [Giuseppe Vicidomini](https://vicidominilab.github.io/team/GV/)
 
 Electronic Design Laboratory, Istituto Italiano di Tecnologia
 
-[Francesco Diotalevi](https://www.iit.it/people-details/-/people/francesco-diotalevi),  [Marco Crepaldi](https://www.iit.it/people-details/-/people/marco-crepaldi)
+[Francesco Diotalevi](https://www.iit.it/people-details/-/people/francesco-diotalevi),  [Marco Crepaldi](https://www.i^0it.it/people-details/-/people/marco-crepaldi)
 
 ```{image} img/EDL_logo.png
 :alt: EDL_logo
