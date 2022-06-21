@@ -34,6 +34,11 @@ The BrightEyes-TTM channel inputs supports either LVTTL or LVDS level input sign
 |[BrightEyes-TTM](FPGABoard.md) | firmware custom and open-source  |
 
 ## Software
+
+```{note}
+The code here presented is Linux native. Even if it should run in Windows we strongly suggest to a Linux distribution Debian derivate (Debian, Ubuntu, Linux Mint etc...).
+```
+
 ### Data Acquisition
 |      |     |
 |------|-----|
