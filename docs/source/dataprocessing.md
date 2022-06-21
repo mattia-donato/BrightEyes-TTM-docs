@@ -19,8 +19,7 @@ Moreover to run correctly the BrightEyes-TTM Notebook examples `spadffs` is need
 pip install -r https://raw.githubusercontent.com/VicidominiLab/libspadffs/ttm/requirements.txt
 pip install git+https://github.com/VicidominiLab/libspadffs.git@ttm
 
-(note you need to install "git" before run the last command,
-if you use a Conda enviroment use "conda install git")
+(note you need to install "git" before run the last command, if you use a Conda enviroment use "conda install git")
 ```
 ```{note}
 `libttp` uses Cython libraries. If you want to run in Windows you need to install Microsoft Build Tools. In Linux this is not required.
