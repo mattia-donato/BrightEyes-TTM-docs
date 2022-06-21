@@ -20,6 +20,10 @@ pip install git+https://github.com/VicidominiLab/libspadffs.git@ttm
 (note you need to install "git" before run the last command,
 if you use a Conda enviroment use "conda install git")
 ```
+```{note}
+`libttp` uses Cython libraries. If you want to run in Windows you need to install Microsoft Build Tools. In Linux this is not required.
+```
+
 ### Notebooks
 It will be soon available.
 
@@ -39,10 +43,11 @@ Before run the notebooks you need to install the libraries libttp and spadffs (v
 ### libttp and spadffs (legacy v1.0)
 In order to install the libttp, spadffs version v1.0. Follow the links below for downloading and installing the required librares.
 
+```{note}
+`libttp` uses Cython libraries. If you want to run in Windows you need to install Microsoft Build Tools. In Linux this is not required.
+```
 - TTM library for reconstructing and calibrating time-tagging data streamet by the BrightEyes-TTM to the host-PC - [lipttp](https://github.com/VicidominiLab/BrightEyes-TTM/blob/v1.0/dataProcessing/libs/libttp)
 - FFS library for reconstructing the correlation curve and implementing FCS - [spad_ffs](https://github.com/VicidominiLab/BrightEyes-TTM/blob/v1.0/dataProcessing/libs/spad_ffs)
-
-
 
 Data is acquired in a RAW format from the TTM using the same data protocol for all the possible and different applications. Then depending on the type of information/application needed is unpacked, calibrated and reconstructed (Fig.1).
 
