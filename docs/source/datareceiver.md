@@ -15,12 +15,12 @@ sudo apt-get install libusb-dev libusb-1.0-0-dev
 ### How to compile?
 
 ```
-(old Protocol - Bright-TTM firmware v1.0)
+(Legacy Protocol - Bright-TTM firmware v1.0)
 gcc "dataReceiver.c" -O2 -g `pkg-config libusb-1.0 --libs --cflags`  -lpthread -o "dataReceiver"
 ```
 
 ```
-(new Protocol - Bright-TTM firmware >=v2.0)
+("new" Protocol - Bright-TTM firmware >=v2.0)
 gcc "dataReceiver-newProt.c" -O2 -g `pkg-config libusb-1.0 --libs --cflags`  -lpthread -o "dataReceiver-newProt"
 ```
 
@@ -36,7 +36,7 @@ gcc "dataReceiver-newProt.c" -O2 -g `pkg-config libusb-1.0 --libs --cflags`  -lp
 
 
 
-## DataReceiver Windows (only v1.0)
+## DataReceiver Windows (only firmware v1.0)
 
 
 The DataReceiverW is the porting of the DataReceiver for Linux to Windows. It based on the libusb-win32 driver and it is in an experimental phase.
