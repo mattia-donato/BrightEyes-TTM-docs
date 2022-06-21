@@ -2,8 +2,7 @@
 
 In this section you will find example of data processing. In order to be able to reconstruct and process the data streamed by the BrightEyes-TTM python libraries have to be previously installed in the host-processing computer.
 
-## Notebooks (new protocol - firmware v2.0)
-It will be soon available.
+## Examples (firmware v2.0)
 
 Before run the notebooks you need to install the libraries libttp and spadffs (v2.0)
 
@@ -21,8 +20,19 @@ pip install git+https://github.com/VicidominiLab/libspadffs.git@ttm
 (note you need to install "git" before run the last command,
 if you use a Conda enviroment use "conda install git")
 ```
+### Notebooks
+It will be soon available.
 
-## Notebooks (old protocol - firmware v1.0)
+#### TCSPC histogram
+
+#### Imaging
+
+#### FCS
+
+#### ISM & FLIM-Phasor analysis
+
+
+## Examples  (legacy firmware v1.0)
 
 Before run the notebooks you need to install the libraries libttp and spadffs (v2.0)
 
@@ -44,6 +54,8 @@ Fig.1 - Data processing procedure
 :::
 
 In order to give the user some preliminary tools to process, reconstruct and use the acquired TTM data we developed 3 main examples using Jupyter Notebook and we provide the associated examples dataset on [Zenodo](https://doi.org/10.5281/zenodo.4912656):
+
+### Notebooks
 
 #### TCSPC histogram
 
