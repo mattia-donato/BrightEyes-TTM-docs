@@ -1,7 +1,7 @@
 
 # Authors
 
-[Molecular Microscopy & Spectroscopy, Istituto Italiano di Tecnologia] (<https://vicidominilab.github.io/>)
+[Molecular Microscopy & Spectroscopy, Istituto Italiano di Tecnologia](<https://vicidominilab.github.io/>)
 
 ```{image} img/MMS_logo.png
 :alt: MMS_logo
