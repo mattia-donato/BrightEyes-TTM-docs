@@ -1,4 +1,4 @@
-# Data processing (python)
+# Data processing
 
 In this section you will find example of data processing. In order to be able to reconstruct and process the data streamed by the BrightEyes-TTM python libraries have to be previously installed in the host-processing computer.
 
