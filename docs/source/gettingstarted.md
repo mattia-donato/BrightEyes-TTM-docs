@@ -45,7 +45,7 @@ The code here presented is Linux native. Even if it should run in Windows we str
 | [DataReceiver](software.md#dataReceiver) | Linux / Windows |
 
 ### Data Analysis libraries
-In order to read the raw data from the BrightEyes-TTM acquisition `libttp` is required to convert the raw data to a dataframe or a HDF5 file. The in order to perform FCS analysis the library `spadffs` is needed too. More details here [BrightEyes-TTM libraries](dataprocessing.md).
+The `libttp` is needed in order to convert the raw data from the BrightEyes-TTM acquisition to a dataframe or a HDF5 file. The `spadffs` are needed instead for perform FCS analysis. More details here [BrightEyes-TTM libraries](dataprocessing.md).
 
 
 ### Data Processing (Python Notebooks)
