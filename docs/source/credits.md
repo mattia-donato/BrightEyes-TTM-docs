@@ -1,18 +1,23 @@
 
 # Authors
 
-Molecular Microscopy & Spectroscopy, Istituto Italiano di Tecnologia
+[Molecular Microscopy & Spectroscopy, Istituto Italiano di Tecnologia] (<https://vicidominilab.github.io/>)
+
+```{image} img/MMS_logo.png
+:alt: MMS_logo
+:width: 80
+```
 
 * [Alessandro Rossetta](https://vicidominilab.github.io/team/AR/) [^1],[^2],[^3],[^6]
 * [Eli Slenders](https://vicidominilab.github.io/team/ES/) [^6]
 * [Mattia Donato](https://vicidominilab.github.io/team/MD/) [^6]
 * [Sabrina Zappone](https://vicidominilab.github.io/team/SZ/) [^1],[^3]
 * [Francesco Fersini](https://vicidominilab.github.io/team/FF/) [^1],[^3]
-* Francesco Diotalevi [^4]
+* [Francesco Diotalevi](https://www.iit.it/people-details/-/people/francesco-diotalevi) [^4]
 * Luca Lanzanò [^2] [^5]
 * [Sami Koho](https://vicidominilab.github.io/team/SVK/) [^1]
 * [Giorgio Tortarolo](https://vicidominilab.github.io/team/GT/) [^1]
-* Marco Crepaldi [^4]
+* [Marco Crepaldi](https://www.iit.it/people-details/-/people/marco-crepaldi) [^4]
 * [Eleonora Perego](https://vicidominilab.github.io/team/EP/) [^1]
 
 and
@@ -45,21 +50,7 @@ and
 # Acknowledgements
 This research was supported by Fondazione San Paolo, “Observation of bio-molecular processes in live-cell with nanocamera”, No. EPFD0098 (E.S. and G.V.), by the European Research Council, Bright Eyes, No. 818699 (G.T. and G.V.), and by the European Union's Horizon 2020 research and innovation programme under the Marie Sk1odowska-Curie grant agreement no. 890923 (SMSPAD) (E.S.). We thank Prof. Alberto Diaspro and Dr. Paolo Bianchini (Nanoscopy \& NIC@IIT, Istituto Italiano di Tecnologia) for useful discussions; Dr. Michele Oneto (Nikon Imaging Center) and Marco Scotto (Molecular Microscopy and Spectroscopy, Istituto Italiano di Tecnologia) for support on the experiments; Dr. Andrea Barberis and Dr. Enrica Petrini (Synaptic Plasticity of Inhibitory Networks, Istituto Italiano di Tecnologia) for providing the primary hippocampal cells; Alessandro Barcellona (Electronic Design Laboratory, Istituto Italiano di Tecnologia) for design and implementation of the custom-made buffer; Prof. Alberto Tosi, Prof. Federica Villa, Dr. Mauro Buttafava (Politecnico di Milano), Dr. Marco Castello, and Dr. Simonluca Piazza (Istituto Italiano di Tecnologia and Genoa Instruments) for useful initial discussions in the time-to-digital design and for the realization of the single-photon-avalanche-diode detector array.
 
-<https://vicidominilab.github.io/>
 
-```{image} img/MMS_logo.png
-:alt: MMS_logo
-:width: 80
-```
-
-Electronic Design Laboratory, Istituto Italiano di Tecnologia
-
-[Francesco Diotalevi](https://www.iit.it/people-details/-/people/francesco-diotalevi),  [Marco Crepaldi](https://www.i^0it.it/people-details/-/people/marco-crepaldi)
-
-```{image} img/EDL_logo.png
-:alt: EDL_logo
-:width: 80
-```
 
 # Copyright
 
