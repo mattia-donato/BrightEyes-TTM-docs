@@ -1,6 +1,17 @@
 # Data processing
 
-In this section you will find example of data processing. In order to be able to reconstruct and process the data streamed by the BrightEyes-TTM python libraries have to be previously installed in the host-processing computer.
+In this section you will find example of data processing. 
+
+Data is acquired in a RAW format from the TTM using the same data protocol for all the possible and different applications. Then depending on the type of information/application needed is unpacked, calibrated and reconstructed (Fig.1).
+
+:::{figure} img/DataProcessing.PNG
+:align: center
+:width: 100%
+
+Fig.1 - Data processing procedure
+:::
+
+In order to be able to reconstruct and process the data streamed by the BrightEyes-TTM python libraries have to be previously installed in the host-processing computer.
 
 ## Examples (firmware v2.0)
 
@@ -50,14 +61,6 @@ In order to install the libttp, spadffs version v1.0. Follow the links below for
 - TTM library for reconstructing and calibrating time-tagging data streamet by the BrightEyes-TTM to the host-PC - [lipttp](https://github.com/VicidominiLab/BrightEyes-TTM/blob/v1.0/dataProcessing/libs/libttp)
 - FFS library for reconstructing the correlation curve and implementing FCS - [spad_ffs](https://github.com/VicidominiLab/BrightEyes-TTM/blob/v1.0/dataProcessing/libs/spad_ffs)
 
-Data is acquired in a RAW format from the TTM using the same data protocol for all the possible and different applications. Then depending on the type of information/application needed is unpacked, calibrated and reconstructed (Fig.1).
-
-:::{figure} img/DataProcessing.PNG
-:align: center
-:width: 100%
-
-Fig.1 - Data processing procedure
-:::
 
 In order to give the user some preliminary tools to process, reconstruct and use the acquired TTM data we developed 3 main examples using Jupyter Notebook and we provide the associated examples dataset on [Zenodo](https://doi.org/10.5281/zenodo.4912656):
 
