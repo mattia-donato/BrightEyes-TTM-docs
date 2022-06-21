@@ -29,12 +29,13 @@ gcc "dataReceiver-newProt.c" -O2 -g `pkg-config libusb-1.0 --libs --cflags`  -lp
 :::{figure} img/dataReceiver/dataReceiverNew.png
 :align: center
 :width: 100%
+Fig. The dataReceiver-newProt running in Linux
 :::
 
 
 
 
-
+---
 
 ## DataReceiver Windows (only firmware v1.0)
 
