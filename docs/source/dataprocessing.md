@@ -19,6 +19,7 @@ Before run the notebooks you need to install the libraries libttp and spadffs (v
 
 ### libttp and spadffs (v2.0)
 In order to read the raw data from the BrightEyes-TTM acquisition `libttp` is required.
+In the v2.0 you can easily install with the following command. Use an enviroment manager like venv
 
 ```
 pip install libttp 
@@ -40,6 +41,8 @@ pip install git+https://github.com/VicidominiLab/libspadffs.git@ttm
 It will be soon available.
 
 #### TCSPC histogram
+
+Thanks to the [TCSPC histogram reconstruction Jupyter Notebook example](https://github.com/VicidominiLab/BrightEyes-TTM/blob/v2.0/notebooks/v2/TCSPC_Histogram_reconstruction.ipynb) it is possible to reconstruct and look the data from a simple spectroscopy point of view by building the TCSPC histogram for all the acquired channels. 
 
 #### Imaging
 
