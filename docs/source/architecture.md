@@ -19,7 +19,7 @@ VHDL source code TTM architecture components:
 - START,STOP,REF signals map - .xdc file for the pin map to match the different BrightEyes-TTM inputs with the FPGA pins.
 
 ```{note}
-The version v2.0 have two `top module`. In the Vivado project one must be disabled and the other one must be enabled and selected as Top module:
+The version v2.0 have two `top` module. In the Vivado project one must be disabled and the other one must be enabled and selected as Top module:
 - [top_diff.vhd](https://github.com/VicidominiLab/BrightEyes-TTM/blob/v2.0/FPGA/ttm/xdc/top_diff.vhd) (which needs [top_diff.xdc](https://github.com/VicidominiLab/BrightEyes-TTM/blob/v2.0/FPGA/ttm/xdc/top_diff.xdc) enabled - for differential inputs - designed the [SPAD7x7-to-FMC adapter board](pinout7x7.md) )
 - [top_single_ended.vhd](https://github.com/VicidominiLab/BrightEyes-TTM/blob/v2.0/FPGA/ttm/xdc/top_single_ended.vhd) (which needs [top_single_ended.xdc](https://github.com/VicidominiLab/BrightEyes-TTM/blob/v2.0/FPGA/ttm/xdc/top_single_ended.xdc) enabled - for single-ended inputs - designed for [SMA/SMB-to-FMC adapter board](pinout5x5.md) )
 ```
