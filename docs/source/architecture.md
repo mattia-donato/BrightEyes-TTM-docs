@@ -19,9 +19,9 @@ VHDL source code TTM architecture components:
 - [START,STOP,REF signals map](https://github.com/VicidominiLab/BrightEyes-TTM/blob/v2.0/FPGA/ttm/xdc/top_fpga.xdc) - .xdc file for the pin map to match the different BrightEyes-TTM inputs with the FPGA pins.
 
 ```{note}
-The project version v2.0 have possible `top` modules. One must be disabled and the other have to be enabled and selected as Top module:
-- top_diff.vhd (which needs top_diff.xdc enabled - for differential inputs - designed the SPAD7x7-to-FMC adapter board)
-- top_single_ended (which needs top_single_ended.xdc enabled -  for single-ended inputs - designed for  SMA/SMB-to-FMC adapter board)
+The version v2.0 have two `top module`. In the Vivado project one must be disabled and the other one must be enabled and selected as Top module:
+- [top_diff.vhd](https://github.com/VicidominiLab/BrightEyes-TTM/blob/v2.0/FPGA/ttm/xdc/top_diff.xdc) (which needs top_diff.xdc enabled - for differential inputs - designed the [SPAD7x7-to-FMC adapter board](pinout7x7.md) )
+- [top_single_ended.vhd](https://github.com/VicidominiLab/BrightEyes-TTM/blob/v2.0/FPGA/ttm/xdc/top_single_ended.xdc) (which needs top_single_ended.xdc enabled - for single-ended inputs - designed for [SMA/SMB-to-FMC adapter board]](pinout5x5.md) )
 ```
 
 The BrightEyes-TTM architecture (Fig.2) combines N+1 (N = 25 photon channels in this implementation) tapped delay lines (TDLs) and a coarse counter running at 240 MHz to obtain N fine TDCs with tens of picoseconds precision (for the start-stop time of each photon channel), and M coarse TDCs with a nanosecond precision (M = 3 reference channels in this implementation).
