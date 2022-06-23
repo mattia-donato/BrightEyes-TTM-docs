@@ -30,10 +30,10 @@ Fig.3 - BrightEyes-TTM detailed assembly.
 
 In the current application the BrightEyes-TTM provides the duplication of the central channel. 
 
-|  Firmware  version |  SPAD | Board    |  Central PX       |  Dupl. output on | 
+|  Firmware  version |  Conn. | SPAD | Board    |  Central PX       |  Dupl. output on | 
 |------------ |-----------|-----------|-------------------|  -----------| 
-|  Single-Ended inputs | 25 ch. | [I/O SMA/B-to-FMC adapter board](pinout5x5.md)  | PX10 (J13) |J17| 
-|  Differentials inputs | 49 ch. | [I/O 7x7SPAD-to-FMC](pinout7x7.md)  | PX24  | J9| 
+|  Single-Ended inputs | SMA/SMB| 25 ch. | [I/O SMA/B-to-FMC adapter board](pinout5x5.md)  | PX10 (J13) |J17| 
+|  Differentials inputs | HPC |49 ch. | [I/O 7x7SPAD-to-FMC](pinout7x7.md)  | PX24  | J9| 
 
 
 ## PC requirements
@@ -47,7 +47,7 @@ In the current application the BrightEyes-TTM provides the duplication of the ce
    * - PC interface
      - USB 3.0 SuperSpeed
    * - PC requirements
-     - min. 1.5 GHz CPU clock, min. 16 GB RAM memory, SSD hard disk
+     - min. 1.5 GHz CPU clock, min. 8 GB RAM memory (suggested >=64 GB), SSD hard disk
    * - Operating system
      - Linux (native) / Windows (ported)
 ```
