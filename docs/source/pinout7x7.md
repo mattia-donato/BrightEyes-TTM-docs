@@ -3,7 +3,9 @@ FMC daugther card to interface the BrightEyes-TTM with external photon-signals f
 
 - *Brand:* *custom-built*
 - *Product code:* *custom-built*
-- **Gerber File:** Gerber_7x7SPAD_FMC.zip \<boards/IOconnectorBoard/Gerber_7x7SPAD_FMC.zip>
+- BOM and docs: [7x7SPAD_FMC](https://github.com/VicidominiLab/BrightEyes-TTM/tree/v2.0/boards/TTM7x7Adapter/docs)
+- **Gerber File:** [Gerber_7x7SPAD_FMC.zip](https://github.com/VicidominiLab/BrightEyes-TTM/raw/v2.0/boards/TTM7x7Adapter/TTM7x7Adapter_gerber.zip)
+
 
 :::{figure} img/3DViewF.png
 :align: center
