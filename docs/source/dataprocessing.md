@@ -99,8 +99,8 @@ The data used in these examples can be downloaded from the link:
 
 | Name | Associated example dataset on Zenodo | Format
 | ------ | ------ | ----- |
-| TSCPC Histogram | **Fluorescence_Spectroscopy_Dataset_40MHz** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| RAW legacy (v1.0) |
-| Imaging | **FLIM_512x512pixels_dwelltime250us_Dataset_40MHz** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| RAW legacy (v1.0)  |
-| FCS | **FCS_scanfcs_Dataset_40MHz** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| RAW legacy (v1.0) |
+| TSCPC Histogram |  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) **Fluorescence_Spectroscopy_Dataset_40MHz** | RAW legacy (v1.0) |
+| Imaging | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) **FLIM_512x512pixels_dwelltime250us_Dataset_40MHz** | RAW legacy (v1.0)  |
+| FCS | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) **FCS_scanfcs_Dataset_40MHz** | RAW legacy (v1.0) |
 
 
