@@ -45,19 +45,19 @@ It will be soon available.
 
 #### TCSPC histogram
 
-Thanks to the [TCSPC histogram reconstruction Jupyter Notebook example](https://github.com/VicidominiLab/BrightEyes-TTM/blob/v2.0/dataProcessing/pynotebook/TCSPC_Histogram_reconstruction.ipynb) it is possible to reconstruct and look the data from a simple spectroscopy point of view by building the TCSPC histogram for all the acquired channels.
+Thanks to the [TCSPC histogram reconstruction Jupyter Notebook example](https://github.com/VicidominiLab/BrightEyes-TTM/tree/v2.0/notebooks/v2TCSPC_Histogram_reconstruction.ipynb) it is possible to reconstruct and look the data from a simple spectroscopy point of view by building the TCSPC histogram for all the acquired channels.
 
 #### Imaging
 
-If pixel,line and frame clocks are connected to the BrightEyesTTM then intensity images as well as FLIM images can be reconstructed too. The [image reconstruction Jupyter Notebook example](https://github.com/VicidominiLab/BrightEyes-TTM/blob/v2.0/dataProcessing/pynotebook/Image_reconstruction.ipynb) shows all the steps to reconstruct a **4D dataset (x,y,t,ch)** and visualize microscopy images.
+If pixel,line and frame clocks are connected to the BrightEyesTTM then intensity images as well as FLIM images can be reconstructed too. The [image reconstruction Jupyter Notebook example](https://github.com/VicidominiLab/BrightEyes-TTM/tree/v2.0/notebooks/v2Image_reconstruction.ipynb) shows all the steps to reconstruct a **4D dataset (x,y,t,ch)** and visualize microscopy images.
 
 #### FCS
 
-If the final goal of the measurement is to retrieve information from the correlation curve the [FCS Jupyter Notebook example](https://github.com/VicidominiLab/BrightEyes-TTM/blob/v2.0/dataProcessing/pynotebook/FCS.ipynb) shows how to calculate the correlation curve.
+If the final goal of the measurement is to retrieve information from the correlation curve the [FCS Jupyter Notebook example](https://github.com/VicidominiLab/BrightEyes-TTM/tree/v2.0/notebooks/v2FCS.ipynb) shows how to calculate the correlation curve.
 
 #### ISM & FLIM-Phasor analysis
 
-This Jupyter notebook example can be used for implementing the pixel reassignment algorithm for image scanning microscopy (ISM) applications and for performing FLIM-phasor analysis with time-resolved data. After having used the image reconstruction Jupyter Notebook example for reconstructing a 4D dataset (x,y,t,ch) it is possible to feed this dataset into the [ISM & FLIM-phasor notebook](https://github.com/VicidominiLab/BrightEyes-TTM/blob/v2.0/dataProcessing/pynotebook/ISM_Decay_Reconstruction.ipynb). NB - time alignment of the fluorescence lifetime decays is required, accross the different available channels (ch), before feeding a 4D dataset into this notebook.
+This Jupyter notebook example can be used for implementing the pixel reassignment algorithm for image scanning microscopy (ISM) applications and for performing FLIM-phasor analysis with time-resolved data. After having used the image reconstruction Jupyter Notebook example for reconstructing a 4D dataset (x,y,t,ch) it is possible to feed this dataset into the [ISM & FLIM-phasor notebook](https://github.com/VicidominiLab/BrightEyes-TTM/tree/v2.0/notebooks/v2ISM_Decay_Reconstruction.ipynb). NB - time alignment of the fluorescence lifetime decays is required, accross the different available channels (ch), before feeding a 4D dataset into this notebook.
 
 
 ## Examples  (legacy firmware v1.0)
@@ -80,28 +80,28 @@ In order to give the user some preliminary tools to process, reconstruct and use
 
 #### TCSPC histogram
 
-Thanks to the [TCSPC histogram reconstruction Jupyter Notebook example](https://github.com/VicidominiLab/BrightEyes-TTM/blob/v1.0/dataProcessing/pynotebook/TCSPC_Histogram_reconstruction.ipynb) it is possible to reconstruct and look the data from a simple spectroscopy point of view by building the TCSPC histogram for all the acquired channels.
+Thanks to the [TCSPC histogram reconstruction Jupyter Notebook example](https://github.com/VicidominiLab/BrightEyes-TTM/tree/v2.0/notebooks/v1TCSPC_Histogram_reconstruction.ipynb) it is possible to reconstruct and look the data from a simple spectroscopy point of view by building the TCSPC histogram for all the acquired channels.
 
 #### Imaging
 
-If pixel,line and frame clocks are connected to the BrightEyesTTM then intensity images as well as FLIM images can be reconstructed too. The [image reconstruction Jupyter Notebook example](https://github.com/VicidominiLab/BrightEyes-TTM/blob/v1.0/dataProcessing/pynotebook/Image_reconstruction.ipynb) shows all the steps to reconstruct a **4D dataset (x,y,t,ch)** and visualize microscopy images.
+If pixel,line and frame clocks are connected to the BrightEyesTTM then intensity images as well as FLIM images can be reconstructed too. The [image reconstruction Jupyter Notebook example](https://github.com/VicidominiLab/BrightEyes-TTM/tree/v2.0/notebooks/v1Image_reconstruction.ipynb) shows all the steps to reconstruct a **4D dataset (x,y,t,ch)** and visualize microscopy images.
 
 #### FCS
 
-If the final goal of the measurement is to retrieve information from the correlation curve the [FCS Jupyter Notebook example](https://github.com/VicidominiLab/BrightEyes-TTM/blob/v1.0/dataProcessing/pynotebook/FCS.ipynb) shows how to calculate the correlation curve.
+If the final goal of the measurement is to retrieve information from the correlation curve the [FCS Jupyter Notebook example](https://github.com/VicidominiLab/BrightEyes-TTM/tree/v2.0/notebooks/v1FCS.ipynb) shows how to calculate the correlation curve.
 
 #### ISM & FLIM-Phasor analysis
 
-This Jupyter notebook example can be used for implementing the pixel reassignment algorithm for image scanning microscopy (ISM) applications and for performing FLIM-phasor analysis with time-resolved data. After having used the image reconstruction Jupyter Notebook example for reconstructing a 4D dataset (x,y,t,ch) it is possible to feed this dataset into the [ISM & FLIM-phasor notebook](https://github.com/VicidominiLab/BrightEyes-TTM/blob/v1.0/dataProcessing/pynotebook/ISM_Decay_Reconstruction_BrightEyes-TTM_v1_opensource.ipynb). NB - time alignment of the fluorescence lifetime decays is required, accross the different available channels (ch), before feeding a 4D dataset into this notebook.
+This Jupyter notebook example can be used for implementing the pixel reassignment algorithm for image scanning microscopy (ISM) applications and for performing FLIM-phasor analysis with time-resolved data. After having used the image reconstruction Jupyter Notebook example for reconstructing a 4D dataset (x,y,t,ch) it is possible to feed this dataset into the [ISM & FLIM-phasor notebook](https://github.com/VicidominiLab/BrightEyes-TTM/tree/v2.0/notebooks/v1ISM_Decay_Reconstruction_BrightEyes-TTM_v1_opensource.ipynb). NB - time alignment of the fluorescence lifetime decays is required, accross the different available channels (ch), before feeding a 4D dataset into this notebook.
 
 #### Data Source (Zenodo)
 
 The data used in these examples can be downloaded from the link:
 
-| Name | Associated example dataset on Zenodo |
-| ------ | ------ |
-| TSCPC Histogram | **Fluorescence_Spectroscopy_Dataset_40MHz** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) |
-| Imaging | **FLIM_512x512pixels_dwelltime250us_Dataset_40MHz** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) |
-| FCS | **FCS_scanfcs_Dataset_40MHz** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) |
+| Name | Associated example dataset on Zenodo | Format
+| ------ | ------ | ----- |
+| TSCPC Histogram | **Fluorescence_Spectroscopy_Dataset_40MHz** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) | RAW v1.0 |
+| Imaging | **FLIM_512x512pixels_dwelltime250us_Dataset_40MHz** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) | RAW v1.0 |
+| FCS | **FCS_scanfcs_Dataset_40MHz** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) | RAW  v1.0 |
 
 
