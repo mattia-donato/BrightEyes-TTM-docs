@@ -20,8 +20,8 @@ VHDL source code TTM architecture components:
 
 ```{note}
 The project version v2.0 have possible `top` modules. One must be disabled and the other have to be enabled and selected as Top module:
-- top_diff.vhd (which needs top_diff.xdc enabled - designed for the SMA/SMB-to-FMC adapter board)
-- top_single_ended (which needs top_single_ended.xdc enabled - designed for SPAD7x7-to-FMC board)
+- top_diff.vhd (which needs top_diff.xdc enabled - for differential inputs - designed the SPAD7x7-to-FMC adapter board)
+- top_single_ended (which needs top_single_ended.xdc enabled -  for single-ended inputs - designed for  SMA/SMB-to-FMC adapter board)
 ```
 
 The BrightEyes-TTM architecture (Fig.2) combines N+1 (N = 25 photon channels in this implementation) tapped delay lines (TDLs) and a coarse counter running at 240 MHz to obtain N fine TDCs with tens of picoseconds precision (for the start-stop time of each photon channel), and M coarse TDCs with a nanosecond precision (M = 3 reference channels in this implementation).
