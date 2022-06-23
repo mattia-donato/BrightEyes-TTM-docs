@@ -38,10 +38,7 @@ pip install git+https://github.com/VicidominiLab/libspadffs.git@ttm
 ```
 
 ### Notebooks
-It will be soon available.
-
-#### TCSPC histogram
-
+Before run the notebooks you need to install the libraries libttp and spadffs (v2.0)
 
 #### TCSPC histogram
 
@@ -62,7 +59,7 @@ This Jupyter notebook example can be used for implementing the pixel reassignmen
 
 ## Examples  (legacy firmware v1.0)
 
-Before run the notebooks you need to install the libraries libttp and spadffs (v2.0)
+Before run the notebooks you need to install the libraries libttp and spadffs (v1.0)
 
 ### libttp and spadffs (legacy v1.0)
 In order to install the libttp, spadffs version v1.0. Follow the links below for downloading and installing the required librares.
