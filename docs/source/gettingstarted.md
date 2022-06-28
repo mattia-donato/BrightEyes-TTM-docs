@@ -22,7 +22,7 @@ Here the list of the hardware requirments.
 
 |      |     |     |
 |------|-----|-----|
-|PC  <br /> Minimum Requirements: USB 3.0, >= 1.5 GHz CPU, >= 16 GB RAM, SSD hard disk, |  commercial   | needed <br /> (strongly suggested<br /> Linux OS)   |
+|PC  <br /> Minimum Requirements:  <br /> USB 3.0, >= 1.5 GHz CPU, <br /> >= 16 GB RAM, SSD hard disk, |  commercial   | needed <br /> (strongly suggested<br /> Linux OS)   |
 |[Xilinx Kintex-7 KC705 evaluation board](FPGABoard.md)| commercial  | |
 |[Cypress FX3™ SuperSpeed Explorer Kit](FMCAdapter.md)| commercial  | |
 |[I/O to FMC adapter board](IOConnectorBoard.md) | custom |      |
