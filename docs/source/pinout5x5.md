@@ -1,5 +1,5 @@
 ## SMA/SMB-to-FMC board
-FMC daugther card to interface the BrightEyes-TTM with external photon-signals
+FMC daugther card to interface the BrightEyes-TTM with external photon-signals on SMA (or SMB) connectors. The input signals of this board are single-ended with impedance 50 Ohm. 
 
 - *Brand:* *custom-built*
 - *Product code:* *custom-built*
