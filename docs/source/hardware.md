@@ -31,8 +31,8 @@ Fig.3 - BrightEyes-TTM detailed assembly.
 In the current application the BrightEyes-TTM provides the duplication of the central channel. 
 
 |  Firmware  version |  Conn. | SPAD | Board    |  Central PX       |  Dupl. output on | 
-|------------ |-----------|-----------|-------------------|  -----------| 
-|  Single-Ended inputs | SMA/SMB| 25 ch. | [I/O SMA/B-to-FMC adapter board](pinout5x5.md)  | PX10 (J13) |J17| 
+| ------------ |----------- | ----------- | ----------------- |  -----------| -----------| 
+|  Single-Ended inputs | SMA/SMB | 25 ch. | [I/O SMA/B-to-FMC adapter board](pinout5x5.md)  | PX10 (J13) |J17| 
 |  Differentials inputs | HPC |49 ch. | [I/O 7x7SPAD-to-FMC](pinout7x7.md)  | PX24  | J9| 
 
 
