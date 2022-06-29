@@ -11,7 +11,7 @@ Data is acquired in a RAW format from the TTM using the same data protocol for a
 Fig.1 - Data processing procedure
 :::
 
-In order to be able to reconstruct and process the data streamed by the BrightEyes-TTM python libraries have to be previously installed in the host-processing computer. On a normal desktop PC the notebooks proposed in this session last from a couple of minutes up-to tenths of minutes.
+In order to be able to reconstruct and process the data streamed by the BrightEyes-TTM python libraries have to be previously installed in the host-processing computer. On a normal desktop PC, the Jupyter Notebooks examples have from a couple of minutes up-to tenths of minutes of execution time.
 
 ## Examples (firmware v2.0)
 
