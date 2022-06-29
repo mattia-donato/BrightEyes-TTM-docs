@@ -97,10 +97,10 @@ This Jupyter notebook example can be used for implementing the pixel reassignmen
 
 The data used in these examples can be downloaded from the link:
 
-| Name | Link &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | Associated example dataset on Zenodo | Format
+| Name | Format | Link &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | Associated example dataset on Zenodo | 
 | ------ | ------ | ------ | ----- |
-| TSCPC Histogram |  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) | **Fluorescence_Spectroscopy_Dataset_40MHz** | RAW legacy (v1.0) |
-| Imaging | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) | **FLIM_512x512pixels_dwelltime250us_Dataset_40MHz** | RAW legacy (v1.0)  |
-| FCS | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) | **FCS_scanfcs_Dataset_40MHz** | RAW legacy (v1.0) |
+| TSCPC Histogram |  RAW legacy (v1.0) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) | **Fluorescence_Spectroscopy_Dataset_40MHz** | 
+| Imaging | RAW legacy (v1.0)  | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) | **FLIM_512x512pixels_dwelltime250us_Dataset_40MHz** |
+| FCS | RAW legacy (v1.0) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) | **FCS_scanfcs_Dataset_40MHz** | 
 
 
