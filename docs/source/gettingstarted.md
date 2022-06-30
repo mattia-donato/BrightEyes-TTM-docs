@@ -40,7 +40,7 @@ Here the list of the firmwares needed to use the BrightEyes-TTM.
 ## Software
 
 ```{note}
-The code here presented is Linux native. Even if it should run in Windows we strongly suggest to use it on a Linux distribution Debian derivate (Debian, Ubuntu, Linux Mint etc...).
+The software to acquire data and the script to analyze tham was developed is Linux native. Even if it should run in Windows 10 / 11 we strongly suggest to use it on a Linux distribution Debian derivate (Debian 11, Ubuntu 20.04 LTS, Linux Mint 20.3 etc...).
 ```
 
 ### Data Acquisition
