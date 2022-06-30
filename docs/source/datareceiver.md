@@ -18,13 +18,33 @@ sudo apt-get install libusb-dev libusb-1.0-0-dev
 (Legacy Protocol - Bright-TTM firmware v1.0)
 gcc "dataReceiver.c" -O2 -g `pkg-config libusb-1.0 --libs --cflags`  -lpthread -o "dataReceiver"
 ```
-
 ```
 ("new" Protocol - Bright-TTM firmware >=v2.0)
 gcc "dataReceiver-newProt.c" -O2 -g `pkg-config libusb-1.0 --libs --cflags`  -lpthread -o "dataReceiver-newProt"
 ```
 
 ### How to run?
+
+The software crash if the subfolder **data/** is it not present in the folder where the **dataReceiver** is executed.
+Create the  **data/** folder:
+
+```
+mkdir data
+```
+
+Then you can run
+
+```
+(Legacy Protocol - Bright-TTM firmware v1.0)
+./dataReceiver
+```
+
+or 
+
+```
+("new" Protocol - Bright-TTM firmware >=v2.0)
+./dataReceiver-newProt
+```
 
 :::{figure} img/dataReceiver/dataReceiverNew.png
 :align: center
@@ -103,4 +123,4 @@ Now the libusb-win32 drivers should be correctly installed.
 :::
 
 
-The **dataReceiverW.exe** executable file is in [dataReceiverW/x64/Debug](/dataReceiverW/x64/Debug). It is a command-line interface CLI software, so it is suggested to run into a Command Prompt (cmd.exe). To run correctly the dataReceiverW needs the library **libpthread.dll** and **libusb-1.0.dll**. The software crash if the subfolder **data\\** is it not present in the folder where the dataReceiverW is executed.
+The **dataReceiverW.exe** executable file is present in the repository at the following link [dataReceiverW (v1)](https://github.com/VicidominiLab/BrightEyes-TTM/tree/v2.0/dataReceiver/windows/v1/bin) and [dataReceiverW-newProt (v2)](https://github.com/VicidominiLab/BrightEyes-TTM/tree/v2.0/dataReceiver/windows/v2/bin). It is a command-line interface CLI software, so it is suggested to run into a Command Prompt (cmd.exe). To run correctly the dataReceiverW needs the library **libpthread.dll** and **libusb-1.0.dll**. The software crash if the subfolder **data\\** is it not present in the folder where the dataReceiverW is executed. 
