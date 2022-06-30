@@ -102,5 +102,11 @@ The data used in these examples can be downloaded from the link:
 | TSCPC Histogram |  RAW legacy (v1.0) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) | **Fluorescence_Spectroscopy_Dataset_40MHz** | 
 | Imaging | RAW legacy (v1.0)  | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) | **FLIM_512x512pixels_dwelltime250us_Dataset_40MHz** |
 | FCS | RAW legacy (v1.0) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4912656.svg)](https://doi.org/10.5281/zenodo.4912656) | **FCS_scanfcs_Dataset_40MHz** | 
+| TSCPC Histogram | RAW (v2.0)  | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6782161.svg)](https://doi.org/10.5281/zenodo.6782161) | **FLIM_80MHz_512x512pixel_120FOV_pixeldwelltime200us.ttr** |
+| Imaging | RAW (v2.0)  | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6782161.svg)](https://doi.org/10.5281/zenodo.6782161) | **FLIM_80MHz_512x512pixel_120FOV_pixeldwelltime200us.ttr** |
+| FCS | RAW (v2.0) |  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6782161.svg)](https://doi.org/10.5281/zenodo.6782161) | **FCS_SpotVariation_80MHz.ttr** | 
+
+
+
 
 
