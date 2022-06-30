@@ -65,4 +65,4 @@ Fig.2 - Assembly for CYUSB3ACC-005 FMC Interconnect Board and the EZ-USBÂ® FX3â„
 
 [Programming guide](https://www.cypress.com/file/133836/download) from page #20
 
-Programming firmware [link](https://github.com/VicidominiLab/BrightEyes-TTM/v2.0/main/boards/USB3.0/firmware/SF_streamIN.img)
+Programming firmware [link](https://www.infineon.com/dgdl/Infineon-AN65974-ApplicationNotes-v17_00-EN.zip?fileId=8ac78c8c7cdc391c017d073967ed5de5)
